@@ -11,8 +11,7 @@ namespace anesthesiaconsiderations_Android
     [Activity(Label = "anesthesiaconsiderations_Android", MainLauncher = true, Icon = "@drawable/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
-
+        
         protected override void OnCreate(Bundle bundle)
         {
             base.OnCreate(bundle);
@@ -20,11 +19,15 @@ namespace anesthesiaconsiderations_Android
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.MyButton);
-
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            // Navigation Buttions
+            // About Button
+            Button button1 = FindViewById<Button>(Resource.Id.button1);
+            // Emergencies Button 
+            Button button2 = FindViewById<Button>(Resource.Id.button2);
+            // Considerations Button 
+            Button button3 = FindViewById<Button>(Resource.Id.button3);
+            // Legal Button
+            Button button4 = FindViewById<Button>(Resource.Id.button4);
         }
     }
 }
