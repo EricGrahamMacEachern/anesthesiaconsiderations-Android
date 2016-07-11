@@ -22,6 +22,12 @@ namespace anesthesiaconsiderations_Android
             // Navigation Buttions
             // About Button
             Button button1 = FindViewById<Button>(Resource.Id.button1);
+            button1.Click += (sender, e) =>
+            {
+                SetContentView(Resource.Layout.About);
+                var intent = new Intent(this, typeof(About));
+                StartActivity(intent);
+            };
             // Emergencies Button 
             Button button2 = FindViewById<Button>(Resource.Id.button2);
             // Considerations Button 
