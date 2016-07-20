@@ -15,15 +15,18 @@
         android:text="@string/EMERGENCIES"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button2" />
+        android:id="@+id/button2"
+        android:onClick="Emergencies" />
     <Button
         android:text="@string/CONSIDERATIONS"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button3" />
+        android:id="@+id/button3"
+        android:onClick="Considerations" />
     <Button
         android:text="@string/LEGAL"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/button4" />
+        android:id="@+id/button4"
+        android:onClick="Legal" />
 </LinearLayout>
