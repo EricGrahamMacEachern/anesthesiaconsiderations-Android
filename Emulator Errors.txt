@@ -1,0 +1,5 @@
+Failed while removing virtual Ethernet switch. 
+
+The virtual switch cannot be deleted because it is being used by running virtual machines or assigned to child pools. 
+
+Could not launch 'VS Emulator 5" KitKat (4.4) XXHDPI Phone' device. Exit code -53246766.

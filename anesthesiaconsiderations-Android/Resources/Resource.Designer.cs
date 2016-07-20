@@ -61,16 +61,19 @@ namespace anesthesiaconsiderations_Android
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int button1 = 2131034112;
+			public const int Main = 2131034112;
 			
 			// aapt resource value: 0x7f050001
-			public const int button2 = 2131034113;
+			public const int button1 = 2131034113;
 			
 			// aapt resource value: 0x7f050002
-			public const int button3 = 2131034114;
+			public const int button2 = 2131034114;
 			
 			// aapt resource value: 0x7f050003
-			public const int button4 = 2131034115;
+			public const int button3 = 2131034115;
+			
+			// aapt resource value: 0x7f050004
+			public const int button4 = 2131034116;
 			
 			static Id()
 			{
@@ -89,7 +92,16 @@ namespace anesthesiaconsiderations_Android
 			public const int About = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int Considerations = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Emergencies = 2130903042;
+			
+			// aapt resource value: 0x7f030003
+			public const int Legal = 2130903043;
+			
+			// aapt resource value: 0x7f030004
+			public const int Main = 2130903044;
 			
 			static Layout()
 			{
@@ -110,8 +122,17 @@ namespace anesthesiaconsiderations_Android
 			// aapt resource value: 0x7f040001
 			public const int ApplicationName = 2130968577;
 			
+			// aapt resource value: 0x7f040004
+			public const int CONSIDERATIONS = 2130968580;
+			
+			// aapt resource value: 0x7f040003
+			public const int EMERGENCIES = 2130968579;
+			
 			// aapt resource value: 0x7f040000
 			public const int Hello = 2130968576;
+			
+			// aapt resource value: 0x7f040005
+			public const int LEGAL = 2130968581;
 			
 			static String()
 			{

@@ -3,4 +3,7 @@
     <string name="Hello">Hello World, Click Me!</string>
     <string name="ApplicationName">anesthesiaconsiderations-Android</string>
     <string name="ABOUT">About</string>
+    <string name="EMERGENCIES">Emergencies</string>
+    <string name="CONSIDERATIONS">Considerations</string>
+    <string name="LEGAL">Legal</string>
 </resources>
