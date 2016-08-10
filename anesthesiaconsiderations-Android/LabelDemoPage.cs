@@ -3,24 +3,22 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class About : ContentPage
+    class LabelDemoPage : ContentPage
     {
-        public About()
+        public LabelDemoPage()
         {
             Label header = new Label
             {
                 Text = "About",
-                FontSize = 50,
-                FontAttributes = FontAttributes.Bold,
+				FontSize = 50,
+				FontAttributes = FontAttributes.Bold,
                 HorizontalOptions = LayoutOptions.Center
             };
 
-            ScrollView scrollView = new ScrollView
+            Label label = new Label
             {
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                Content = new Label
-                {
-                    Text = "Welcome to our website!  We aim to provide anesthesiologists, trainees, and " +
+                Text =
+                    "Welcome to our website!  We aim to provide anesthesiologists, trainees, and " +
 
                     "perioperative health professionals with concise, current, and accessible clinical " +
 
@@ -36,35 +34,19 @@ namespace FormsGallery
 
                     "use the available dropdown menus.  We hope to continually improve, expand, and " +
 
-                    "update our website. Please read the 'Legal' section for our terms of use. \n\n" +
+                    "update our website. Please read the 'Legal' section for our terms of use.",
 
-                    "Dr. Pooya Kazemi, MD, FRCPC " +
-
-                    "Founder, Contributor, Owner " +
-
-                    "Anesthesiologist, Vancouver Island Health Authority " +
-
-                    "Victoria, BC, Canada " +
-
-                    "Resident Contributors: " +
-    
-                    "Dr. Daniel Mok, MD, UBC Anesthesiology Resident " +
-
-                    "Dr. Amber Galbraith, MD, UBC Anesthesiology Resident ",
-
-                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                }
+				FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
+                VerticalOptions = LayoutOptions.CenterAndExpand
             };
-
-
 
             // Build the page.
             this.Content = new StackLayout
             {
-                Children =
+                Children = 
                 {
                     header,
-                    scrollView,
+                    label
                 }
             };
         }
