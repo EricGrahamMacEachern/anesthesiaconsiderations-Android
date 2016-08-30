@@ -1,0 +1,54 @@
+                   Text = "Signs" +
+                          "Wheezing on lung auscultation" +
+                          "Slow or incomplete expiration" +
+                          "Change in EtCO2 " +
+                          ?"Upsloping waveform" +
+                          "Severe or absent waveform" +
+                          " tidal volume" +
+                          " oxygen saturation" +
+                          " peak airway pressure" +
+
+
+
+                          "Differential Diagnosis" +
+
+                          "resistance:" +
+                          "Bronchial asthma" +
+                          "COPD with reversible component" +
+                          "Laryngospasm (if supraglottic airway)" +
+                          "Anaphylaxis" +
+                          " compliance:" +
+                          "Aspiration" +
+                          "Pulmonary edema" +
+                          "Pulmomary embolism/fat embolism/amniotic fluid embolism" +
+                          "Pneumothorax" +
+                          "Opioid-induced chest wall rigidity" +
+                          "Inadequate muscle relaxation" +
+                          "Circuit/machine problems" +
+                          "ETT/supraglottic airway:" +
+                          "Kinked" +
+                          "Malposition" +
+                          "Endobronchial/esophageal/submucosal" +
+                          "Herniated cuff" +
+                          "Foreign body/secretions" +
+
+
+                          "Management" +
+
+                          "Adjust FiO2 as necessary, remove irritants, deepen anesthesia" +
+                          "Disconnect & hand-ventilate to assess compliance, rule out other possibilities" +
+                          "Beta 2 agonists are first line treatment:" +
+                          "Salbutamol 4-8 puffs via ETT OR 2.5-5mg via nebulizer q20min PRN" +
+                          "Epinephrine infusion 0.5-2mcg/min in severe, refractory cases" +
+                          "Anticholinergics: ipratropium 4-8 puffs via ETT OR 0.5 mg via nebulizer q20min PRN" +
+                          "Steroids: methylprednisolone 125mg IV OR dexamethasone 8mg IV" +
+                          "Appropriate ventilation to avoid dynamic hyperinflation:" +
+                          "Longer expiratory time (I:E 1:3-1:5)" +
+                          "Low/normal respiratory rates (8-12/min)" +
+                          "Permissive hypercapnia" +
+                          "Adjuncts:" +
+                          "Bronchodilating anesthetics: volatiles > ketamine > propofol" +
+                          "Magnesium sulfate 2g IV over 20min" +
+                          "Heliox (does not reverse bronchospasm, but can be used as a temporizing measure)" +
+                          "Neuromuscular blocking drugs (may improve mechanics of ventilation & lower peak inspiratory pressures)" +
+                          "Extracorporeal membrane oxygenation (ECMO) if severe & refractory to all other treatments",
