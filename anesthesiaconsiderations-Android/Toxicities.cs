@@ -7,36 +7,98 @@ namespace FormsGallery
     {
         public Toxicities()
         {
-            Label header = new Label
-            {
-                Text = "Toxicities",
-                FontSize = 50,
-                FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
-            };
-
-            ScrollView scrollView = new ScrollView
-            {
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                Content = new Label
+            // Define command for the items in the TableView.
+            Command<Type> navigateCommand =
+                new Command<Type>(async (Type pageType) =>
                 {
-                    Text = "Toxicities",
+                    Page page = (Page)Activator.CreateInstance(pageType);
+                    await this.Navigation.PushAsync(page);
+                });
 
-                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                }
-            };
-
-
-
-            // Build the page.
-            this.Content = new StackLayout
+            this.Title = "Toxicities";
+            this.Content = new TableView
             {
-                Children =
-                {
-                    header,
-                    scrollView,
-                }
+                Intent = TableIntent.Menu,
+                Root = new TableRoot
+                    {
+                        new TableSection("Toxicities")
+                        {
+                            new TextCell
+                            {
+                                Text = "Acetaminophen Overdose",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(AcetaminophenOverdose)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "ASA Toxicity",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ASAToxicity)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Beta Blocker Overdose",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(BetaBlockerOverdose)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Cocaine Toxicity",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(CocaineToxicity)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Cyanide Toxicity",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(CyanideToxicity)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Digoxin Toxicity",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(DigoxinToxicity)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "MDMA (Ectasy)",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(MDMAEctasy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Metamphetamines",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Metamphetamines)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Organophosphates",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Organophosphates)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Tricyclic Antidepressants (TCA)",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(TricyclicAntidepressantsTCA)
+                            },
+
+                        }
+                    }
             };
         }
     }
+
 }
+
+

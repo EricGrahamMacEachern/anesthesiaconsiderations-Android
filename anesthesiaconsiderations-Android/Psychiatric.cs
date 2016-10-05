@@ -7,36 +7,56 @@ namespace FormsGallery
     {
         public Psychiatric()
         {
-            Label header = new Label
-            {
-                Text = "Psychiatric",
-                FontSize = 50,
-                FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
-            };
-
-            ScrollView scrollView = new ScrollView
-            {
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                Content = new Label
+            // Define command for the items in the TableView.
+            Command<Type> navigateCommand =
+                new Command<Type>(async (Type pageType) =>
                 {
-                    Text = "Psychiatric",
+                    Page page = (Page)Activator.CreateInstance(pageType);
+                    await this.Navigation.PushAsync(page);
+                });
 
-                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                }
-            };
-
-
-
-            // Build the page.
-            this.Content = new StackLayout
+            this.Title = "Psychiatric";
+            this.Content = new TableView
             {
-                Children =
-                {
-                    header,
-                    scrollView,
-                }
+                Intent = TableIntent.Menu,
+                Root = new TableRoot
+                    {
+                        new TableSection("Psychiatric")
+                        {
+                            new TextCell
+                            {
+                                Text = "Electroconvulsive Therapy (ECT)",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ElectroconvulsiveTherapyECT)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "MOAI (Monoamine Oxidase Inhibitors)",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(MOAIMonoamineOxidaseInhibitors)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Neuroleptic Malignant Syndrome",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(NeurolepticMalignantSyndrome)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Serotonin Syndrome",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(SerotoninSyndrome)
+                            },
+
+                        }
+                    }
             };
         }
     }
+
 }
+
+

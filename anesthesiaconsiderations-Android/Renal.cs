@@ -7,36 +7,49 @@ namespace FormsGallery
     {
         public Renal()
         {
-            Label header = new Label
-            {
-                Text = "Renal",
-                FontSize = 50,
-                FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
-            };
-
-            ScrollView scrollView = new ScrollView
-            {
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                Content = new Label
+            // Define command for the items in the TableView.
+            Command<Type> navigateCommand =
+                new Command<Type>(async (Type pageType) =>
                 {
-                    Text = "Renal",
+                    Page page = (Page)Activator.CreateInstance(pageType);
+                    await this.Navigation.PushAsync(page);
+                });
 
-                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                }
-            };
-
-
-
-            // Build the page.
-            this.Content = new StackLayout
+            this.Title = "Renal";
+            this.Content = new TableView
             {
-                Children =
-                {
-                    header,
-                    scrollView,
-                }
+                Intent = TableIntent.Menu,
+                Root = new TableRoot
+                    {
+                        new TableSection("Renal")
+                        {
+                            new TextCell
+                            {
+                                Text = "Acute Renal Failure",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(AcuteRenalFailure)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Chronic Renal Failure",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ChronicRenalFailure)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "TURP & TURP Syndrome",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(TURPAndTURPSyndrome)
+                            },
+                            
+                        }
+                    }
             };
         }
     }
+
 }
+
+

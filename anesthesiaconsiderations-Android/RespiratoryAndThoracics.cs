@@ -7,36 +7,146 @@ namespace FormsGallery
     {
         public RespiratoryAndThoracics()
         {
-            Label header = new Label
-            {
-                Text = "Respiratory & Thoracics",
-                FontSize = 50,
-                FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
-            };
-
-            ScrollView scrollView = new ScrollView
-            {
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                Content = new Label
+            // Define command for the items in the TableView.
+            Command<Type> navigateCommand =
+                new Command<Type>(async (Type pageType) =>
                 {
-                    Text = "Respiratory & Thoracics",
+                    Page page = (Page)Activator.CreateInstance(pageType);
+                    await this.Navigation.PushAsync(page);
+                });
 
-                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                }
-            };
-
-
-
-            // Build the page.
-            this.Content = new StackLayout
+            this.Title = "Respiratory & Thoracics";
+            this.Content = new TableView
             {
-                Children =
-                {
-                    header,
-                    scrollView,
-                }
+                Intent = TableIntent.Menu,
+                Root = new TableRoot
+                    {
+                        new TableSection("Respiratory & Thoracics")
+                        {
+                            new TextCell
+                            {
+                                Text = "Anterior Mediastinal Mass",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(AnteriorMediastinalMass)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Asthma",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Asthma)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Bronchiectasis",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Bronchiectasis)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Bronchopleural Fistula",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(BronchopleuralFistula)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "BullousLungDisease",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(BullousLungDisease)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "COPD",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(COPD)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Cystic Fibrosis",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(CysticFibrosis)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Esophagectomy",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Esophagectomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Massive Hemoptysis",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(MassiveHemoptysis)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Mediastinoscopy",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Mediastinoscopy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Obstructive Sleep Apnea",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ObstructiveSleepApnea)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Pneumonectomy",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Pneumonectomy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Post Lung Transplant",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(PostLungTransplant)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Pulmonary Embolism",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(PulmonaryEmbolism)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Restrictive Lung Disease",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(RestrictiveLungDisease)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Smoking",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Smoking)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Thymectomy",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(Thymectomy)
+                            },
+                        }
+                    }
             };
         }
     }
+
 }
+
+

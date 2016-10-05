@@ -129,58 +129,114 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AbdominalAorticAneurysmRepairOpen.cs" />
     <Compile Include="AbdominalCompartmentSyndrome.cs" />
     <Compile Include="About.cs" />
+    <Compile Include="AcetaminophenOverdose.cs" />
+    <Compile Include="Achondroplasia.cs" />
     <Compile Include="Acromegaly.cs" />
     <Compile Include="AcuteLeukemia.cs" />
+    <Compile Include="AcuteRenalFailure.cs" />
+    <Compile Include="AcuteSpinalCordInjury.cs" />
     <Compile Include="AdrenocorticalInsufficiency.cs" />
     <Compile Include="AdultCongenitalHeartDisease.cs" />
     <Compile Include="Airway.cs" />
     <Compile Include="AirwayAbscessAndInfection.cs" />
     <Compile Include="AirwayFire.cs" />
+    <Compile Include="AirwayFire.xaml.cs">
+      <DependentUpon>AirwayFire.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AirwayFire2.xaml.cs">
+      <DependentUpon>AirwayFire2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="AirwayForeignBody.cs" />
     <Compile Include="AirwayTrauma.cs" />
     <Compile Include="Alcoholism.cs" />
+    <Compile Include="AmnioticFluidEmbolism.cs" />
+    <Compile Include="Amyloidosis.cs" />
+    <Compile Include="AmyotrophicLateralSclerosisALS.cs" />
     <Compile Include="Anaphylaxis.cs" />
+    <Compile Include="AnkylosingSpondylitis.cs" />
     <Compile Include="AnorexiaNervosa.cs" />
+    <Compile Include="AnteriorMediastinalMass.cs" />
     <Compile Include="AorticDissection.cs" />
     <Compile Include="AorticRegurgitation.cs" />
     <Compile Include="AorticStenosis.cs" />
+    <Compile Include="App.axml.cs" />
     <Compile Include="App.cs" />
     <Compile Include="ARDS.cs" />
+    <Compile Include="ArnoldChiariMalformation.cs" />
+    <Compile Include="ASAToxicity.cs" />
+    <Compile Include="Asthma.cs" />
     <Compile Include="AtrialFibrillation.cs" />
     <Compile Include="AtrialSeptalDefect.cs" />
+    <Compile Include="AutonomicHyperreflexia.cs" />
+    <Compile Include="BetaBlockerOverdose.cs" />
+    <Compile Include="BreechPresentation.cs" />
+    <Compile Include="Bronchiectasis.cs" />
+    <Compile Include="BronchopleuralFistula.cs" />
     <Compile Include="Bronchospasm.cs" />
     <Compile Include="BrugadaSyndrome.cs" />
+    <Compile Include="BullousLungDisease.cs" />
     <Compile Include="Burns.cs" />
     <Compile Include="Carcinoid.cs" />
     <Compile Include="Cardiac.cs" />
     <Compile Include="CardiacContusion.cs" />
     <Compile Include="CardiacTamponade.cs" />
     <Compile Include="Cardiomyopathies.cs" />
+    <Compile Include="CarotidEndarterectomy.cs" />
+    <Compile Include="CerebralPalsy.cs" />
+    <Compile Include="CervicalCerclage.cs" />
+    <Compile Include="ChronicRenalFailure.cs" />
+    <Compile Include="CleftLipAndPalate.cs" />
+    <Compile Include="CocaineToxicity.cs" />
     <Compile Include="CodeFile1.cs" />
     <Compile Include="CodeFile2.cs" />
+    <Compile Include="CongenitalDiaphragmaticHernia.cs" />
     <Compile Include="Considerations.cs" />
     <Compile Include="Contact.cs" />
+    <Compile Include="COPD.cs" />
     <Compile Include="CoronaryArteryDisease.cs" />
+    <Compile Include="CraniofacialDysostosis.cs" />
+    <Compile Include="Craniotomy.cs" />
     <Compile Include="CriticalCare.cs" />
+    <Compile Include="CroupLaryngotracheobronchitis.cs" />
     <Compile Include="CrushInjuries.cs" />
     <Compile Include="CushingsSyndrome.cs" />
+    <Compile Include="CyanideToxicity.cs" />
+    <Compile Include="CysticFibrosis.cs" />
     <Compile Include="DelayedEmergence.cs" />
     <Compile Include="DiabetesInsipidus.cs" />
     <Compile Include="DiabetesMellitus.cs" />
     <Compile Include="DiabeticKetoacidosis.cs" />
+    <Compile Include="DigoxinToxicity.cs" />
     <Compile Include="DisseminatedIntravascularCoagulationDIC.cs" />
+    <Compile Include="DownSyndrome.cs" />
+    <Compile Include="DuchenneMuscularDystrophy.cs" />
+    <Compile Include="DyspneaInPregnancy.cs" />
+    <Compile Include="EhlersDanlos.cs" />
+    <Compile Include="ElectroconvulsiveTherapyECT.cs" />
     <Compile Include="Emergencies.cs" />
     <Compile Include="Endocrinology.cs" />
+    <Compile Include="Epiglottitis.cs" />
+    <Compile Include="Esophagectomy.cs" />
     <Compile Include="ExpandingNeckHematoma.cs" />
+    <Compile Include="ExternalCephalicVersion.cs" />
     <Compile Include="ExtravasationInjuries.cs" />
     <Compile Include="FatEmbolism.cs" />
+    <Compile Include="FetalDistress.cs" />
     <Compile Include="FontanPhysiology.cs" />
+    <Compile Include="FormerPrematureInfant.cs" />
     <Compile Include="G6PDDeficiency.cs" />
+    <Compile Include="GlycogenStorageDisorders.cs" />
+    <Compile Include="Guillain-BarreSyndromeGBS.cs" />
     <Compile Include="Hematology.cs" />
     <Compile Include="Hemophilia.cs" />
     <Compile Include="Hepatic.cs" />
+    <Compile Include="HereditaryAngioedemaC1EsteraseDeficiency.cs" />
+    <Compile Include="HereditaryHemorrhagicTelangiectasias.cs" />
     <Compile Include="HomePage.cs" />
+    <Compile Include="HuntingtonsDisease.cs" />
     <Compile Include="Hyperaldosteronism.cs" />
     <Compile Include="Hyperkalemia.cs" />
     <Compile Include="Hyperparathyroidism.cs" />
@@ -199,49 +255,106 @@
     <Compile Include="LocalAnestheticToxicity.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MalignantHyperthermia.cs" />
+    <Compile Include="MarfansSyndrome.cs" />
+    <Compile Include="MassiveHemoptysis.cs" />
+    <Compile Include="MDMAEctasy.cs" />
+    <Compile Include="Mediastinoscopy.cs" />
+    <Compile Include="Metamphetamines.cs" />
     <Compile Include="MicrolaryngoscopyAndAirwayLaser.cs" />
     <Compile Include="MitralRegurgitation.cs" />
     <Compile Include="MitralStenosis.cs" />
+    <Compile Include="MOAIMonoamineOxidaseInhibitors.cs" />
+    <Compile Include="Mucopolysaccharidosis.cs" />
+    <Compile Include="MultipleGestation.cs" />
+    <Compile Include="MultipleSclerosis.cs" />
+    <Compile Include="MyastheniaGravis.cs" />
+    <Compile Include="MyasthenicEatonLambertSyndrome.cs" />
+    <Compile Include="MyotonicDystrophy.cs" />
+    <Compile Include="NecrotizingEnterocolitis.cs" />
     <Compile Include="Neuroanesthesia.cs" />
+    <Compile Include="Neurofibromatosis.cs" />
+    <Compile Include="NeurolepticMalignantSyndrome.cs" />
     <Compile Include="Neuromuscular.cs" />
+    <Compile Include="NonObstetricalSurgeryInPregnancy.cs" />
     <Compile Include="Obesity.cs" />
     <Compile Include="Obstetrics.cs" />
+    <Compile Include="ObstructiveSleepApnea.cs" />
+    <Compile Include="OmphaloceleAndGastroschisis.cs" />
     <Compile Include="OrganDonation.cs" />
+    <Compile Include="Organophosphates.cs" />
+    <Compile Include="OsteogenesisImperfecta.cs" />
     <Compile Include="PacemakersAndICDs.cs" />
+    <Compile Include="ParkinsonsDisease.cs" />
+    <Compile Include="PediatricPatient.cs" />
     <Compile Include="Pediatrics.cs" />
     <Compile Include="PenetratingNeckInjuries.cs" />
+    <Compile Include="PeriodicParalysis.cs" />
     <Compile Include="PerioperativeMI.cs" />
     <Compile Include="PerioperativeSteroids.cs" />
+    <Compile Include="PeripartumCardiacArrest.cs" />
+    <Compile Include="PeripartumCardiomyopathy.cs" />
     <Compile Include="Pheochromocytoma.cs" />
+    <Compile Include="PierreRobinSyndrome.cs" />
+    <Compile Include="PituitarySurgery.cs" />
+    <Compile Include="PlacentalAbruption.cs" />
+    <Compile Include="Pneumonectomy.cs" />
+    <Compile Include="PolymyositisAndDermatomyositis.cs" />
     <Compile Include="Porphyria.cs" />
+    <Compile Include="PosteriorFossaSurgery.cs" />
+    <Compile Include="PostLungTransplant.cs" />
     <Compile Include="PostoperativeVisualLoss.cs" />
+    <Compile Include="PostpartumHemorrhage.cs" />
+    <Compile Include="Preeclampsia.cs" />
+    <Compile Include="PrematureInfant.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Psychiatric.cs" />
+    <Compile Include="PulmonaryEmbolism.cs" />
     <Compile Include="PulmonaryHypertension.cs" />
+    <Compile Include="PyloricStenosis.cs" />
     <Compile Include="QTProlongation.cs" />
     <Compile Include="RareCoexistingDisease.cs" />
     <Compile Include="Renal.cs" />
     <Compile Include="Resource.Designer.cs" />
     <Compile Include="RespiratoryAndThoracics.cs" />
+    <Compile Include="RestrictiveLungDisease.cs" />
+    <Compile Include="RheumatoidArthritis.cs" />
     <Compile Include="RigidBronchoscopy.cs" />
+    <Compile Include="Scleroderma.cs" />
+    <Compile Include="Scoliosis.cs" />
+    <Compile Include="Search.cs" />
     <Compile Include="Seizure.cs" />
     <Compile Include="Sepsis.cs" />
+    <Compile Include="SerotoninSyndrome.cs" />
     <Compile Include="SIADH.cs" />
     <Compile Include="SickleCellDisease.cs" />
     <Compile Include="SkinAndMusculoskeletal.cs" />
     <Compile Include="SmokeInhalation.cs" />
+    <Compile Include="Smoking.cs" />
+    <Compile Include="SpinaBifida.cs" />
+    <Compile Include="SpineSurgery.cs" />
+    <Compile Include="StevenJohnsonSyndrome.cs" />
+    <Compile Include="SubarachnoidHemorrhage.cs" />
+    <Compile Include="SystemicLupusErythematosusSLE.cs" />
+    <Compile Include="TetralogyOfFallot.cs" />
     <Compile Include="Thalassemia.cs" />
+    <Compile Include="Thymectomy.cs" />
     <Compile Include="TotalSpinal.cs" />
     <Compile Include="Toxicities.cs" />
+    <Compile Include="TracheoesophagealFistula.cs" />
     <Compile Include="Tracheostomy.cs" />
     <Compile Include="TransfusionReactions.cs" />
     <Compile Include="TransplantedHeart.cs" />
     <Compile Include="Trauma.cs" />
+    <Compile Include="TraumaticBrainInjury.cs" />
     <Compile Include="TricuspidRegurgitation.cs" />
+    <Compile Include="TricyclicAntidepressantsTCA.cs" />
     <Compile Include="TumorLysisSyndrome.cs" />
+    <Compile Include="TURPAndTURPSyndrome.cs" />
+    <Compile Include="UterineInversion.cs" />
     <Compile Include="Vascular.cs" />
     <Compile Include="VenousAirEmbolism.cs" />
     <Compile Include="VonWillebrandsDisease.cs" />
+    <Compile Include="WegenersGranulomatosis.cs" />
     <Compile Include="Wolff-Parkinson-WhiteSyndrome.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -249,20 +362,6 @@
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />
     <None Include="Assets\AboutAssets.txt" />
-    <AndroidResource Include="Resources\layout\About.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\Emergencies.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\Considerations.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-    <AndroidResource Include="Resources\layout\Legal.axml">
-      <SubType>Designer</SubType>
-    </AndroidResource>
-  </ItemGroup>
-  <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
   </ItemGroup>
   <ItemGroup>
@@ -273,6 +372,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AndroidManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AirwayFire.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AirwayFire2.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Menu\main.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\App.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets" Condition="Exists('..\packages\Xamarin.Android.Support.Vector.Drawable.23.3.0\build\Xamarin.Android.Support.Vector.Drawable.targets')" />

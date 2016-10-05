@@ -7,36 +7,44 @@ namespace FormsGallery
     {
         public Vascular()
         {
-            Label header = new Label
-            {
-                Text = "Vascular",
-                FontSize = 50,
-                FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
-            };
-
-            ScrollView scrollView = new ScrollView
-            {
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                Content = new Label
+            // Define command for the items in the TableView.
+            Command<Type> navigateCommand =
+                new Command<Type>(async (Type pageType) =>
                 {
-                    Text = "Vascular",
+                    Page page = (Page)Activator.CreateInstance(pageType);
+                    await this.Navigation.PushAsync(page);
+                });
 
-                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                }
-            };
-
-
-
-            // Build the page.
-            this.Content = new StackLayout
+            this.Title = "Vascular";
+            this.Content = new TableView
             {
-                Children =
-                {
-                    header,
-                    scrollView,
-                }
+                Intent = TableIntent.Menu,
+                Root = new TableRoot
+                    {
+                        new TableSection("Vascular")
+                        {
+                            new TextCell
+                            {
+                                Text = "Abdominal Aortic Aneurysm Repair(Open)",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(AbdominalAorticAneurysmRepairOpen)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Carotid Endarterectomy",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(CarotidEndarterectomy)
+                            },
+                            
+                        }
+                    }
             };
         }
     }
+
 }
+
+
+
+

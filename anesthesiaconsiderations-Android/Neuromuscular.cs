@@ -7,36 +7,82 @@ namespace FormsGallery
     {
         public Neuromuscular()
         {
-            Label header = new Label
-            {
-                Text = "Neuromuscular",
-                FontSize = 50,
-                FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
-            };
-
-            ScrollView scrollView = new ScrollView
-            {
-                VerticalOptions = LayoutOptions.FillAndExpand,
-                Content = new Label
+            // Define command for the items in the TableView.
+            Command<Type> navigateCommand =
+                new Command<Type>(async (Type pageType) =>
                 {
-                    Text = "Neuromuscular",
+                    Page page = (Page)Activator.CreateInstance(pageType);
+                    await this.Navigation.PushAsync(page);
+                });
 
-                    FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
-                }
-            };
-
-
-
-            // Build the page.
-            this.Content = new StackLayout
+            this.Title = "Neuromuscular";
+            this.Content = new TableView
             {
-                Children =
-                {
-                    header,
-                    scrollView,
-                }
+                Intent = TableIntent.Menu,
+                Root = new TableRoot
+                    {
+                        new TableSection("Neuromuscular")
+                        {
+                            new TextCell
+                            {
+                                Text = "Amyotrophic Lateral Sclerosis (ALS)",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(AmyotrophicLateralSclerosisALS)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Guillain-Barre Syndrome (GBS)",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(GuillainBarreSyndromeGBS)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Multiple Sclerosis",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(MultipleSclerosis)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Myasthenia Gravis",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(MyastheniaGravis)
+                            },
+                            new TextCell
+                            {
+                                Text = "Myasthenic (Eaton-Lambert) Syndrome",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(MyasthenicEatonLambertSyndrome)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Myotonic Dystrophy",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(MyotonicDystrophy)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Parkinsons Disease",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(ParkinsonsDisease)
+                            },
+
+                            new TextCell
+                            {
+                                Text = "Polymyositis & Dermatomyositis",
+                                Command = navigateCommand,
+                                CommandParameter = typeof(PolymyositisAndDermatomyositis)
+                            },
+                            
+                        }
+                    }
             };
         }
     }
+
 }
+

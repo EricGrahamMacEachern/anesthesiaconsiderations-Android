@@ -1,0 +1,17 @@
+﻿<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		         xmlns:custom="clr-namespace:ResourceLibrary;assembly=ResourceLibrary" 
+                x:Class="anesthesiaconsiderationsAndroid.App">
+    <Application.Resources>
+        <ResourceDictionary>
+            <Color x:Key="PageBackgroundColor">Yellow</Color>
+            <Color x:Key="HeadingTextColor">Black</Color>
+            <Color x:Key="NormalTextColor">Blue</Color>
+            <Style x:Key="Label" TargetType="Label">
+                <Setter Property="FontAttributes" Value="Bold" />
+                <Setter Property="HorizontalOptions" Value="Center" />
+                <Setter Property="TextColor" Value="Yellow" />
+            </Style>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
