@@ -40,33 +40,70 @@ namespace FormsGallery
 
         ObservableCollection<pageList> pageListings = new ObservableCollection<pageList>
 {
-new pageList("Anaphylaxis", typeof(Anaphylaxis)),
+new pageList("Abdominal Aortic Aneurysm Repair (Open)", typeof(AbdominalAorticAneurysmRepairOpen)),
+new pageList("Abdominal Compartment Syndrome", typeof(AbdominalCompartmentSyndrome)),
+new pageList("Acetaminophen Overdose", typeof(AcetaminophenOverdose)),
+new pageList("Achondroplasia", typeof(Achondroplasia)),
+new pageList("Acromegaly", typeof(Acromegaly)),
+new pageList("Acute Leukemia", typeof(AcuteLeukemia)),
+new pageList("Acute Renal Failure", typeof(AcuteRenalFailure)),
+new pageList("Acute Spinal Cord Injury", typeof(AcuteSpinalCordInjury)),
+new pageList("Adrenocortical Insufficiency", typeof(AdrenocorticalInsufficiency)),
+new pageList("Adult Congenital Heart Disease", typeof(AdultCongenitalHeartDisease)),
+new pageList("Airway", typeof(Airway)),
+new pageList("Airway Abscess and Infection", typeof(AirwayAbscessAndInfection)),
+new pageList("Airway Fire", typeof(AirwayFire)),
+new pageList("Airway Foreign Body", typeof(AirwayForeignBody)),
 new pageList("Alcoholism", typeof(Alcoholism)),
-new pageList("Anorexia Nervosa", typeof(AnorexiaNervosa)),
+new pageList("Amniotic Fluid Embolism", typeof(AmnioticFluidEmbolism)),
+new pageList("Amyloidosis", typeof(Amyloidosis)),
+new pageList("Amyotrophic Lateral Sclerosis ALS", typeof(AmyotrophicLateralSclerosisALS)),
+new pageList("Anaphylaxis", typeof(Anaphylaxis)),
+new pageList("Anaphylaxis", typeof(Anaphylaxis)),
 };
         ObservableCollection<pageList> _viewModels = new ObservableCollection<pageList>
 {
-new pageList("Anaphylaxis", typeof(Anaphylaxis)),
+new pageList("Abdominal Aortic Aneurysm Repair (Open)", typeof(AbdominalAorticAneurysmRepairOpen)),
+new pageList("Abdominal Compartment Syndrome", typeof(AbdominalCompartmentSyndrome)),
+new pageList("Acetaminophen Overdose", typeof(AcetaminophenOverdose)),
+new pageList("Achondroplasia", typeof(Achondroplasia)),
+new pageList("Acromegaly", typeof(Acromegaly)),
+new pageList("Acute Leukemia", typeof(AcuteLeukemia)),
+new pageList("Acute Renal Failure", typeof(AcuteRenalFailure)),
+new pageList("Acute Spinal Cord Injury", typeof(AcuteSpinalCordInjury)),
+new pageList("Adrenocortical Insufficiency", typeof(AdrenocorticalInsufficiency)),
+new pageList("Adult Congenital Heart Disease", typeof(AdultCongenitalHeartDisease)),
+new pageList("Airway", typeof(Airway)),
+new pageList("Airway Abscess and Infection", typeof(AirwayAbscessAndInfection)),
+new pageList("AirwayFire", typeof(AirwayFire)),
+new pageList("Airway Foreign Body", typeof(AirwayForeignBody)),
 new pageList("Alcoholism", typeof(Alcoholism)),
-new pageList("Anorexia Nervosa", typeof(AnorexiaNervosa)),
+new pageList("Amniotic Fluid Embolism", typeof(AmnioticFluidEmbolism)),
+new pageList("Amyloidosis", typeof(Amyloidosis)),
+new pageList("Amyotrophic Lateral Sclerosis ALS", typeof(AmyotrophicLateralSclerosisALS)),
+new pageList("Anaphylaxis", typeof(Anaphylaxis)),
+new pageList("Anaphylaxis", typeof(Anaphylaxis)),
 };
 
         public Search()
         {
-
+            BackgroundColor = Color.White;
 
             Label header = new Label
             {
-                Text = "ListView",
-                FontSize = 50,
+                Text = "Search",
+                TextColor = Color.Black,
+                FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
-                HorizontalOptions = LayoutOptions.Center
+                HorizontalOptions = LayoutOptions.Center,
+                HorizontalTextAlignment = TextAlignment.Center,
             };
 
             // Define the page listings. 
             resultsLabel = new Label
             {
                 Text = "Result will appear here.",
+                TextColor = Color.Black,
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 FontSize = 25
             };
@@ -74,17 +111,14 @@ new pageList("Anorexia Nervosa", typeof(AnorexiaNervosa)),
             searchBar = new SearchBar
             {
                 Placeholder = "Enter search term",
+                TextColor = Color.Black,
             };
     
         StackLayout stackLayout = new StackLayout
             {
                 VerticalOptions = LayoutOptions.Start,
                 Children = {
-                    new Label {
-                        HorizontalTextAlignment = TextAlignment.Center,
-                        Text = "SearchBar",
-                        FontSize = 50
-                    },
+
                     searchBar,
                     new ScrollView
                     {
@@ -112,11 +146,19 @@ new pageList("Anorexia Nervosa", typeof(AnorexiaNervosa)),
                 {
                     // Create views with bindings for displaying each property
                     Label pageLabel = new Label();
+
                     pageLabel.SetBinding(Label.TextProperty, "pageTitle");
+
+                    pageLabel.TextColor = Color.Black;
+
+
+
             return new ViewCell
                     {
+
                         View = new StackLayout
                         {
+
                             Padding = new Thickness(0, 5),
                             Orientation = StackOrientation.Horizontal,
                             Children =
@@ -124,6 +166,7 @@ new pageList("Anorexia Nervosa", typeof(AnorexiaNervosa)),
                                 new StackLayout
                                 {
                                     VerticalOptions = LayoutOptions.Center,
+
                                     Spacing = 0,
                                     Children =
                                     {
