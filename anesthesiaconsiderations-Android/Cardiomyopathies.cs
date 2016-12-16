@@ -161,6 +161,7 @@ namespace FormsGallery
                             }
                         },
 
+
                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
@@ -259,7 +260,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Contractility: maintain",
+                                    Text = "Contractility: maintain ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -287,7 +288,7 @@ namespace FormsGallery
                             }
                         },
 
-                      new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(60, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -308,7 +309,7 @@ namespace FormsGallery
                             }
                         },
 
-                      new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(60, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -329,7 +330,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -343,15 +344,14 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Dilated (systolic failure): ",
+                                    Text = "Dilated (systolic failure):",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-
-                      new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(40, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -372,7 +372,7 @@ namespace FormsGallery
                             }
                         },
 
-                      new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(40, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -393,7 +393,7 @@ namespace FormsGallery
                             }
                         },
 
-                      new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(40, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -414,7 +414,7 @@ namespace FormsGallery
                             }
                         },
 
-                      new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(40, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -435,7 +435,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -456,9 +456,9 @@ namespace FormsGallery
                             }
                         },
 
-                      new StackLayout
+                     new StackLayout
                         {
-                            Padding = new Thickness(40, 0, 0, 0),
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -477,9 +477,9 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
-                            Padding = new Thickness(40, 0, 0, 0),
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -498,9 +498,9 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
-                            Padding = new Thickness(40, 0, 0, 0),
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -519,9 +519,9 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
-                            Padding = new Thickness(40, 0, 0, 0),
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
@@ -581,6 +581,7 @@ namespace FormsGallery
                                 },
                             }
                         },
+
 
                         new StackLayout
                         {
@@ -644,7 +645,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -665,7 +666,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -686,7 +687,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -707,7 +708,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -728,7 +729,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -749,7 +750,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -770,7 +771,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -791,7 +792,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -812,7 +813,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -854,7 +855,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -875,7 +876,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -896,7 +897,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -938,7 +939,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -959,7 +960,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -980,7 +981,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1001,7 +1002,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1022,7 +1023,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1043,7 +1044,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                     new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -1057,12 +1058,13 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Idiopathic",
+                                    Text = "Idiopathic ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
         }
                 }
             };
