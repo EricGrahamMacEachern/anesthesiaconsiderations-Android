@@ -287,65 +287,62 @@ namespace FormsGallery
                             }
                         },
 
-                      new StackLayout
+                        new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
+                            Padding = 0,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
+                                    FontSize = 20,
                                     Text = "Recurrent aspiration & pulmonary impairment",
                                     TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
                                 },
                             }
                         },
 
-                      new StackLayout
+                        new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
+                            Padding = 0,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
+                                    FontSize = 20,
                                     Text = "Scoliosis & ↑ bleeding risk during scoliosis surgery",
                                     TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
                                 },
                             }
                         },
 
-                      new StackLayout
+                        new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
+                            Padding = 0,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
+                                    FontSize = 20,
+                                    Text = "Rule out pulmonary HTN/RV failure ",
                                     TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    FontSize = 16,
-                                    Text = "Rule out pulmonary HTN/RV failure ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                                    Text = " ",
+                                    FontSize = 5,
                                 },
                             }
                         },
@@ -371,68 +368,106 @@ namespace FormsGallery
                             }
                         },
 
-                      new StackLayout
+                        new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
+                            Padding = 0,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
+                                    FontSize = 20,
                                     Text = "Developmental delay/lack of cooperation",
                                     TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
                                 },
                             }
                         },
 
-                      new StackLayout
+                        new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
+                            Padding = 0,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
+                                    FontSize = 20,
                                     Text = "Seizure d/o",
                                     TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
                                 },
                             }
                         },
 
-                      new StackLayout
+                        new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
+                            Padding = 0,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
+                                    FontSize = 20,
+                                    Text = "Hydrocephalus ",
                                     TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    FontSize = 16,
-                                    Text = "Hydrocephalus ",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                                    Text = " ",
+                                    FontSize = 5,
                                 },
                             }
                         },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    FontSize = 20,
+                                    Text = "Autonomic dysfunction with hemodynamic instability",
+                                    TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    FontSize = 20,
+                                    Text = "Pulmonary: pulmonary edema from low albumin, ↓ forced vital capacity, atelectasis ",
+                                    TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+                            }
+                        },
+
 
                         new StackLayout
                         {
@@ -455,65 +490,62 @@ namespace FormsGallery
                             }
                         },
 
-                      new StackLayout
+                        new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
+                            Padding = 0,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
+                                    FontSize = 20,
                                     Text = "↓ MAC of volatiles & longer emergence ",
                                     TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
                                 },
                             }
                         },
 
-                      new StackLayout
+                        new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
+                            Padding = 0,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
+                                    FontSize = 20,
                                     Text = "↑ sensitivity to muscle relaxants   ",
                                     TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
                                 },
                             }
                         },
 
-                      new StackLayout
+                        new StackLayout
                         {
-                            Padding = new Thickness(20, 0, 0, 0),
-                            Orientation = StackOrientation.Horizontal,
+                            Padding = 0,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
+                                    FontSize = 20,
+                                    Text = "Volatiles & succinylcholine NOT contraindicated",
                                     TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    FontSize = 16,
-                                    Text = "Volatiles & succinylcholine NOT contraindicated",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
+                                    Text = " ",
+                                    FontSize = 5,
                                 },
                             }
                         },
@@ -580,7 +612,6 @@ namespace FormsGallery
                                 },
                             }
                         },
-
         }
                 }
             };

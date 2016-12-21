@@ -190,8 +190,6 @@
     <Compile Include="ChronicRenalFailure.cs" />
     <Compile Include="CleftLipAndPalate.cs" />
     <Compile Include="CocaineToxicity.cs" />
-    <Compile Include="CodeFile1.cs" />
-    <Compile Include="CodeFile2.cs" />
     <Compile Include="CongenitalDiaphragmaticHernia.cs" />
     <Compile Include="Considerations.cs" />
     <Compile Include="Contact.cs" />
