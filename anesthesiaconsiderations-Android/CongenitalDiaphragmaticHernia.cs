@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class CocaineToxicity : ContentPage
+    class CongenitalDiaphragmaticHernia : ContentPage
     {
-        public CocaineToxicity()
+        public CongenitalDiaphragmaticHernia()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = " Cocaine Toxicity",
+                Text = "Congenital Diaphragmatic Hernia",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,

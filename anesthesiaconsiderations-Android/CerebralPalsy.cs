@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class CarotidEndarterectomy : ContentPage
+    class CerebralPalsy : ContentPage
     {
-        public CarotidEndarterectomy()
+        public CerebralPalsy()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
