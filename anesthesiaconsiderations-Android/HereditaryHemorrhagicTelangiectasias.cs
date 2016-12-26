@@ -9,7 +9,7 @@ namespace FormsGallery
         {
             Label header = new Label
             {
-                Text = "Hereditary Hemorrhagic Telangiectasias",
+                Text = "Hereditary Hemorrhagic Telangiectasias 404",
                 FontSize = 50,
                 FontAttributes = FontAttributes.Bold,
                 HorizontalOptions = LayoutOptions.Center
@@ -20,7 +20,7 @@ namespace FormsGallery
                 VerticalOptions = LayoutOptions.FillAndExpand,
                 Content = new Label
                 {
-                    Text = "Hereditary Hemorrhagic Telangiectasias",
+                    Text = "Hereditary Hemorrhagic Telangiectasias 404",
 
                     FontSize = Device.GetNamedSize(NamedSize.Large, typeof(Label)),
                 }
