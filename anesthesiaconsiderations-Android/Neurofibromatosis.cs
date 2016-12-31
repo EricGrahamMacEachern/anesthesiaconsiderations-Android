@@ -932,7 +932,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Neuraxial: must have imaging (MRI/CT) of spine before epidural/spinal ",
+                                    Text = "Neuraxial: must have imaging (MRI/CT) of spine before epidural/spinal   ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
