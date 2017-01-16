@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class MalignantHyperthermia : ContentPage
+    class MarfansSyndrome : ContentPage
     {
-        public MalignantHyperthermia()
+        public MarfansSyndrome()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>

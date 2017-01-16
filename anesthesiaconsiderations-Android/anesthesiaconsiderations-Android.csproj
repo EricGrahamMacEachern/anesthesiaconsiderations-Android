@@ -255,9 +255,9 @@
     <Compile Include="MalignantHyperthermia.cs" />
     <Compile Include="MarfansSyndrome.cs" />
     <Compile Include="MassiveHemoptysis.cs" />
-    <Compile Include="MDMAEctasy.cs" />
+    <Compile Include="MDMAEcstasy.cs" />
     <Compile Include="Mediastinoscopy.cs" />
-    <Compile Include="Metamphetamines.cs" />
+    <Compile Include="Methamphetamines.cs" />
     <Compile Include="MicrolaryngoscopyAndAirwayLaser.cs" />
     <Compile Include="MitralRegurgitation.cs" />
     <Compile Include="MitralStenosis.cs" />

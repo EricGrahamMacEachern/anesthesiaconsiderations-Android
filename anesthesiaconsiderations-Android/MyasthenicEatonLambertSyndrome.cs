@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class MyastheniaGravis : ContentPage
+    class MyasthenicEatonLambertSyndrome : ContentPage
     {
-        public MyastheniaGravis()
+        public MyasthenicEatonLambertSyndrome()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Myasthenia Gravis",
+                Text = "Myasthenic Eaton Lambert Syndrome",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,

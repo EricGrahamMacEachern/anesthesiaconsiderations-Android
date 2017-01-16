@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class ObstructiveSleepApnea : ContentPage
+    class OmphaloceleAndGastroschisis : ContentPage
     {
-        public ObstructiveSleepApnea()
+        public OmphaloceleAndGastroschisis()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Obstructive Sleep Apnea",
+                Text = "Omphalocele And Gastroschisis",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,

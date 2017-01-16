@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class Hemophelia : ContentPage
+    class Hemophilia : ContentPage
     {
-        public Hemophelia()
+        public Hemophilia()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>

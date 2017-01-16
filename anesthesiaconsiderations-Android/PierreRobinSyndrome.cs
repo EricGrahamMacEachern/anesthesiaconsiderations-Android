@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class PeripartumCardiomyopathy : ContentPage
+    class PierreRobinSyndrome : ContentPage
     {
-        public PeripartumCardiomyopathy()
+        public PierreRobinSyndrome()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Peripartum Cardiomyopathy",
+                Text = "Pierre Robin Syndrome",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,

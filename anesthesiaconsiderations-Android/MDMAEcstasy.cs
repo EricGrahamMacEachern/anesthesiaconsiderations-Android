@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class MassiveHemoptysis : ContentPage
+    class MDMAEcstasy : ContentPage
     {
-        public MassiveHemoptysis()
+        public MDMAEcstasy()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "MDMA (Ectasy) Toxicity ",
+                Text = "MDMA (Ecstasy) Toxicity ",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,

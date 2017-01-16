@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class Hypoxemia : ContentPage
+    class IncreasedAirwayPressure : ContentPage
     {
-        public Hypoxemia()
+        public IncreasedAirwayPressure()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Hypoxemia",
+                Text = "Increased Airway Pressure",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
