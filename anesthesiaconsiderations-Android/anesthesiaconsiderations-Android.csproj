@@ -363,7 +363,7 @@
     <Compile Include="VenousAirEmbolism.cs" />
     <Compile Include="VonWillebrandsDisease.cs" />
     <Compile Include="WegenersGranulomatosis.cs" />
-    <Compile Include="Wolff-Parkinson-WhiteSyndrome.cs" />
+    <Compile Include="WolffParkinsonWhiteSyndrome.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
