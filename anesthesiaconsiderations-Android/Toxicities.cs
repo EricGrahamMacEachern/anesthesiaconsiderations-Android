@@ -90,7 +90,7 @@ namespace FormsGallery
                             {
                                 Text = "Tricyclic Antidepressants (TCA)",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(TricyclicAntidepressantsTCA)
+                                CommandParameter = typeof(TCAToxicity)
                             },
 
                         }

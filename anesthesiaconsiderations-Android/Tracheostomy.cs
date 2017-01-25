@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class TracheosophagealFistula : ContentPage
+    class Tracheostomy : ContentPage
     {
-        public TracheosophagealFistula()
+        public Tracheostomy()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Tracheosophageal Fistula",
+                Text = "Tracheostomy",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
