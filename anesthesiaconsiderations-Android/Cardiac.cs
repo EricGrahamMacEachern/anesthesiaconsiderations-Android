@@ -41,7 +41,7 @@ namespace FormsGallery
                             {
                                 Text = "Aortic Regurgitation",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(ExpandingNeckHematoma)
+                                CommandParameter = typeof(AorticRegurgitation)
                             },
 
                             new TextCell
