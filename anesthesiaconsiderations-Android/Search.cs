@@ -1,5 +1,4 @@
-﻿// Does not compile yet. 
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using Xamarin.Forms;
@@ -60,6 +59,35 @@ new pageList("Amyloidosis", typeof(Amyloidosis)),
 new pageList("Amyotrophic Lateral Sclerosis ALS", typeof(AmyotrophicLateralSclerosisALS)),
 new pageList("Anaphylaxis", typeof(Anaphylaxis)),
 new pageList("Anaphylaxis", typeof(Anaphylaxis)),
+new pageList("Ankylosing Spondylitis", typeof(AnkylosingSpondylitis)),
+new pageList("Anorexia Nervosa", typeof(AnorexiaNervosa)),
+new pageList("Anterior Mediastinal Mass", typeof(AnteriorMediastinalMass)),
+new pageList("Aortic Dissection", typeof(AorticDissection)),
+new pageList("Aortic Regurgitation", typeof(AorticRegurgitation)),
+new pageList("Aoritic Stenosis", typeof(AorticStenosis)),
+new pageList("ARDS - Acute Respiratory Distress Syndrome", typeof(ARDS)),
+new pageList("Arnold Chiari Malformation", typeof(ArnoldChiariMalformation)),
+new pageList("ASA toxicity", typeof(ASAToxicity)),
+new pageList("Asthma", typeof(Asthma)),
+new pageList("Atrial Fibrillation", typeof(AtrialFibrilation)),
+new pageList("Atrial Septal Defect", typeof(AtrialSeptalDefect)),
+new pageList("Autonomic Hyperrreflexia", typeof(AutonomicHyperreflexia)),
+new pageList("Beta Blocker Overdose", typeof(BetaBlockerOverdose)),
+new pageList("Breech Presentation", typeof(BreechPresentation)),
+new pageList("Bronchietasis", typeof(Bronchiectasis)),
+new pageList("Bronchopleural Fistula", typeof(BronchopleuralFistula)),
+new pageList("Bronchospasm", typeof(Bronchospasm)),
+new pageList("Brugada Syndrome", typeof(BrugudaSyndrome)),
+new pageList("Bullous Lung Disease", typeof(BullousLungDisease)),
+new pageList("Burns", typeof(Burns)),
+new pageList("Carcinoid", typeof(Carcinoid)),
+new pageList("Cardiac", typeof(Cardiac)),
+new pageList("Cardiac Contusion", typeof(CardiacContusion)),
+new pageList("Cardiac Tamponade", typeof(CardiacTamponade)),
+new pageList("Cardiomyopathies", typeof(Cardiomyopathies)),
+new pageList("Carotid Endarterectomy", typeof(CarotidEndarterectomy)),
+new pageList("Cerebral Palsy", typeof(CerebralPalsy)),
+
 };
         ObservableCollection<pageList> _viewModels = new ObservableCollection<pageList>
 {
