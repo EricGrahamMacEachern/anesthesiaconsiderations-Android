@@ -322,7 +322,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Follow Surviving Sepsis Guidelines: LINK",
+                                    Text = "Follow Surviving Sepsis Guidelines: open local pdf",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

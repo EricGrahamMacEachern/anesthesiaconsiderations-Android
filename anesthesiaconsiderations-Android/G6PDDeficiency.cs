@@ -760,7 +760,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "For a more complete list, visit: http://www.g6pd.org/en/G6PDDeficiency/SafeUnsafe.aspx",
+                                    Text = "For a more complete list, visit: <a href=\"http://www.g6pd.org/en/G6PDDeficiency/SafeUnsafe.aspx\">G6PD & Drugs</a>",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

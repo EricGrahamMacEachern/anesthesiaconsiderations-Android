@@ -603,11 +603,12 @@ namespace FormsGallery
                                 {
                                     Text = " ",
                                     FontSize = 5,
-                                },
+
+        },
                             }
                         },
 
-// Figure out how to add a table. 
+
         }
                 }
             };
