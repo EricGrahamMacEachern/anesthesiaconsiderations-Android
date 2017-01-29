@@ -173,7 +173,7 @@ namespace FormsGallery
                             {
                                 Text = "Tracheoesophageal Fistula",
                                 Command = navigateCommand,
-                                CommandParameter = typeof(TCAToxicity)
+                                CommandParameter = typeof(TracheosophagealFistula)
                             },
 
                         }

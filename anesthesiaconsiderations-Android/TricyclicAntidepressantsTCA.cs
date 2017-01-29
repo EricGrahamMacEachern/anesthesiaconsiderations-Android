@@ -3,9 +3,9 @@ using Xamarin.Forms;
 
 namespace FormsGallery
 {
-    class TCAToxicity : ContentPage
+    class TricyclicAntidepressantsTCA : ContentPage
     {
-        public TCAToxicity()
+        public TricyclicAntidepressantsTCA()
         {
             Command<Type> navigateCommand =
                 new Command<Type>(async (Type pageType) =>
@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "TCA Toxicity",
+                Text = " Tricyclic Antidepressants TCA",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
