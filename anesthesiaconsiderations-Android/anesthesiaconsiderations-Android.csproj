@@ -238,7 +238,7 @@
     <Compile Include="FormerPrematureInfant.cs" />
     <Compile Include="G6PDDeficiency.cs" />
     <Compile Include="GlycogenStorageDisorders.cs" />
-    <Compile Include="Guillain-BarreSyndromeGBS.cs" />
+    <Compile Include="GuillainBarreSyndromeGBS.cs" />
     <Compile Include="Hematology.cs" />
     <Compile Include="Hemophilia.cs" />
     <Compile Include="Hepatic.cs" />

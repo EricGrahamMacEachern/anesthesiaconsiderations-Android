@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Non Obstetrical Surgery In Pregancy ",
+                Text = "Non Obstetric Surgery In Pregancy ",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
