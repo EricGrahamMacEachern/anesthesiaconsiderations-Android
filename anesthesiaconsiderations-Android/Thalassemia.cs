@@ -70,7 +70,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↓ synthesis of alpha or beta chains of hemoglobin → precipitation of unpaired chains & premature RBC destruction \n",
+                                    Text = "↓ synthesis of alpha or beta chains of hemoglobin → precipitation of unpaired chains & premature RBC destruction \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -489,7 +489,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Alpha thalassemia minor: ​mild anemia\n",
+                                    Text = "Alpha thalassemia minor: ​mild anemia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

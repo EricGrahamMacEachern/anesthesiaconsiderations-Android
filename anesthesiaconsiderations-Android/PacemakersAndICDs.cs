@@ -451,7 +451,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Perioperative medication management\n",
+                                    Text = "Perioperative medication management\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -578,7 +578,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Prevent damage to device\n",
+                                    Text = "Prevent damage to device\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -747,7 +747,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Antiarrhytmics (overdose or withdrawal) \n",
+                                    Text = "Antiarrhytmics (overdose or withdrawal) \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -238,7 +238,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hyper-osmolality (>290)\n",
+                                    Text = "Hyper-osmolality (>290)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -447,7 +447,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Nephrogenic (chronic renal failure, lithium toxicity, hypercalcemia, hypokalemia, congenital, fluoride toxicity)\n",
+                                    Text = "Nephrogenic (chronic renal failure, lithium toxicity, hypercalcemia, hypokalemia, congenital, fluoride toxicity)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -635,7 +635,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Cerebral edema, water intoxication, volume overload\n",
+                                    Text = "Cerebral edema, water intoxication, volume overload\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

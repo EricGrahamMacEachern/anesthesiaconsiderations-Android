@@ -197,7 +197,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Heart transplant recipients with valvulopathy\n",
+                                    Text = "Heart transplant recipients with valvulopathy\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -280,7 +280,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Procedures involving infected skin/musculoskeletal tissue \n",
+                                    Text = "Procedures involving infected skin/musculoskeletal tissue \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

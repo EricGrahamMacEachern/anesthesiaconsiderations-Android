@@ -217,7 +217,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "TURP glycine toxicity\n",
+                                    Text = "TURP glycine toxicity\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -384,7 +384,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Systemic vascular risk factors: hypertension, diabetes, atherosclerosis, hyperlipidemia, smoking, obesity, obstructive sleep apnea & hypercoagulability\n",
+                                    Text = "Systemic vascular risk factors: hypertension, diabetes, atherosclerosis, hyperlipidemia, smoking, obesity, obstructive sleep apnea & hypercoagulability\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

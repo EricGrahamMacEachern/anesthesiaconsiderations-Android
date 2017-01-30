@@ -325,7 +325,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Iatrogenic (hypotonic IV solutions)\n",
+                                    Text = "Iatrogenic (hypotonic IV solutions)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -408,7 +408,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Caution with rapid correction of serum sodium (central pontine myelinolysis)\n",
+                                    Text = "Caution with rapid correction of serum sodium (central pontine myelinolysis)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -491,7 +491,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Correct underlying reversible etiologies (infection, tumour, medications, iatrogenic)\n",
+                                    Text = "Correct underlying reversible etiologies (infection, tumour, medications, iatrogenic)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

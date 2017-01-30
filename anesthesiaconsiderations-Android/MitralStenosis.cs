@@ -406,7 +406,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Antiarrhythmics\n",
+                                    Text = "Antiarrhythmics\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -552,7 +552,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoid precipitants of pulmonary hypertension  ",
+                                    Text = "Avoid precipitants of pulmonary hypertension  \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -261,7 +261,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "S weating \n",
+                                    Text = "S weating \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -304,7 +304,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "S weating \n",
+                                    Text = "S weating \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -334,19 +334,41 @@ namespace FormsGallery
                         new StackLayout
                         {
                             Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "Emergency situation, full stomach ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text = "Emergency situation, full stomach ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Potentially life-threatening situation with high mortality: ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
@@ -491,7 +513,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Psychiatric patient, potentially uncooperative\n",
+                                    Text = "Psychiatric patient, potentially uncooperative\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

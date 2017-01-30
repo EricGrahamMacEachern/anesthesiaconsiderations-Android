@@ -243,7 +243,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Medications including need for steroid replacement\n",
+                                    Text = "Medications including need for steroid replacement\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

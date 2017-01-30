@@ -243,7 +243,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Cardio-respiratory interaction\n",
+                                        "Cardio-respiratory interaction\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -368,7 +368,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Lung isolation techniques:",
+                                    Text = "Lung isolation techniques:\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -429,7 +429,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoid PPV prior to lung isolation:",
+                                    Text = "Avoid PPV prior to lung isolation:\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -217,7 +217,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Resources (rapid infusers, blood products/massive transfusion protocol, uterotonics/tocolytics, invasive monitoring, tranexamic acid, cell salvage, rFVIIa)\n",
+                                    Text = "Resources (rapid infusers, blood products/massive transfusion protocol, uterotonics/tocolytics, invasive monitoring, tranexamic acid, cell salvage, rFVIIa)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

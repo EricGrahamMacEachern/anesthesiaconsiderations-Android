@@ -217,7 +217,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Unrepaired cyanotic heart disease, including palliative shunts & conduits\n",
+                                    Text = "Unrepaired cyanotic heart disease, including palliative shunts & conduits\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -116,7 +116,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Interfere with the Krebs cycle",
+                                        "Interfere with the Krebs cycle\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -576,7 +576,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Serums ASA levels (note that peak levels can be delayed by 6 hours) \n",
+                                        "Serums ASA levels (note that peak levels can be delayed by 6 hours) \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

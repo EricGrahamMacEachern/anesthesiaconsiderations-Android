@@ -175,7 +175,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Sudden cardiac arrest due to hyperkalemia\n",
+                                    Text = "Sudden cardiac arrest due to hyperkalemia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -300,7 +300,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Cardiac arrest\n",
+                                    Text = "Cardiac arrest\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -427,7 +427,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Drug toxicity: consider clinical context, screen urine/plasma\n",
+                                    Text = "Drug toxicity: consider clinical context, screen urine/plasma\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

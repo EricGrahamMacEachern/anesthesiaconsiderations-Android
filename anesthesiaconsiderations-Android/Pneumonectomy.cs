@@ -598,7 +598,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Myocardial infarction \n",
+                                    Text = "Myocardial infarction \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -702,7 +702,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Pristine intraoperative management: thoracic epidural, fluid restriction, lung protective ventilation, avoidance of hypothermia\n",
+                                    Text = "Pristine intraoperative management: thoracic epidural, fluid restriction, lung protective ventilation, avoidance of hypothermia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -807,7 +807,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Need for thoracic epidural but requirement for full anticoagulation (mechanical heart valve, severe CHADS2, DVT/PE) ",
+                                    Text = "Need for thoracic epidural but requirement for full anticoagulation (mechanical heart valve, severe CHADS2, DVT/PE) \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

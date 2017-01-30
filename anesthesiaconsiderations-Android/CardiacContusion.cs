@@ -332,7 +332,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Carcinoid tumors can also secrete GH (acromegaly) & ACTH (Cushing's)\n",
+                                        "Carcinoid tumors can also secrete GH (acromegaly) & ACTH (Cushing's)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -780,7 +780,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "AVOID: epinephrine, norepinephrine, ephedrine \n",
+                                    Text = "AVOID: epinephrine, norepinephrine, ephedrine \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -884,7 +884,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Bronchospasm vs. need to avoid adrenergic agents\n",
+                                    Text = "Bronchospasm vs. need to avoid adrenergic agents\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

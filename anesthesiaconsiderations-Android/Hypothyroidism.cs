@@ -512,7 +512,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Post-operative airway obstruction (recurrent laryngeal nerve injury, tracheomalacia, hematoma, hypocalcemia)\n",
+                                    Text = "Post-operative airway obstruction (recurrent laryngeal nerve injury, tracheomalacia, hematoma, hypocalcemia)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -574,7 +574,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Optimize volume status, give steroids, & manage glucose & sodium \n",
+                                    Text = "Optimize volume status, give steroids, & manage glucose & sodium \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -637,7 +637,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Potential for over-sedation vs. difficult airway (post-operative analgesia)",
+                                    Text = "Potential for over-sedation vs. difficult airway (post-operative analgesia)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

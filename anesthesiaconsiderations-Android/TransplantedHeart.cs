@@ -532,7 +532,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Adverse effects: anemia, thrombocytopenia, hepatotoxicity, nephrotoxicity\n",
+                                    Text = "Adverse effects: anemia, thrombocytopenia, hepatotoxicity, nephrotoxicity\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -741,7 +741,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "If valvulopathy: needs infective endocarditis prophylaxis\n",
+                                    Text = "If valvulopathy: needs infective endocarditis prophylaxis\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

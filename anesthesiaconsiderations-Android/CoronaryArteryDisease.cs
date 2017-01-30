@@ -154,7 +154,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Associated medications: antihypertensives, anticoagulants, diuretics \n ",
+                                    Text = "Associated medications: antihypertensives, anticoagulants, diuretics \n\n ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -279,7 +279,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Afterload: maintain, coronary perfusion dependent on diastolic pressure \n",
+                                    Text = "Afterload: maintain, coronary perfusion dependent on diastolic pressure \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -341,7 +341,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Need for surgery vs antiplatelets for coronary stents\n",
+                                    Text = "Need for surgery vs antiplatelets for coronary stents\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

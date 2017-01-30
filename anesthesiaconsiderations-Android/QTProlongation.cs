@@ -112,7 +112,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Congenital long QT: may have pacemaker/AICD, perioperative β-blockade; avoid sympathomimetics\n",
+                                    Text = "Congenital long QT: may have pacemaker/AICD, perioperative β-blockade; avoid sympathomimetics\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -303,7 +303,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Preparations for treating Torsades: defibrillator & pads in OR, MgSO4, resuscitation drugs\n",
+                                    Text = "Preparations for treating Torsades: defibrillator & pads in OR, MgSO4, resuscitation drugs\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -408,7 +408,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = ">470 ms (males) & >480 ms (females) (AHA/ACC Consensus statement 2011)\n",
+                                    Text = ">470 ms (males) & >480 ms (females) (AHA/ACC Consensus statement 2011)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

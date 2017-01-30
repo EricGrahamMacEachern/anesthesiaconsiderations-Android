@@ -218,7 +218,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "High-frequency oscillatory ventilation, in addition to nitric oxide\n",
+                                    Text = "High-frequency oscillatory ventilation, in addition to nitric oxide\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -308,62 +308,65 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
                                     Text = "Respiratory insufficiency (hypoxemia, hypercarbia, acidosis)",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
                                     Text = "Permissive hypercarbia may be required",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "Consider HVO or ECMO",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text = "Consider HVO or ECMO",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
@@ -389,42 +392,44 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "Potential for RV failure/↓ cardiac output ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text = "Potential for RV failure/↓ cardiac output ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "Consider inhaled nitric oxide",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text = "Consider inhaled nitric oxide",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
@@ -450,45 +455,27 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "Potential for R→L & L→R shunting",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text = "Potential for R→L & L→R shunting",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    FontSize = 20,
-                                    Text = "PDA",
-                                    TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
-                                },
-                            }
-                        },
 
                         new StackLayout
                         {
@@ -525,7 +512,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "NICU required\n",
+                                    Text = "NICU required\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -678,122 +665,128 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
                                     Text = "Target SaO2 > 85% & permissive hypercapnia (PaCO2 <65, pH >7.25)",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
                                     Text = "PCV or PSV PIP < 25",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                      new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
                                     Text = "Inspiratory time 0.35 s",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
                                     Text = "PEEP 3-5 mmHg",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
                                     Text = "RR < 65",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "Consider HVO, iNO or ECMO",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text = "Consider HVO, iNO or ECMO",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
@@ -821,44 +814,45 @@ namespace FormsGallery
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "Consider inhaled nitric oxide",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text = "Consider inhaled nitric oxide",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
                         new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "Inotropes",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text = "Inotropes",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
-
                         new StackLayout
                         {
                             Padding = 0,

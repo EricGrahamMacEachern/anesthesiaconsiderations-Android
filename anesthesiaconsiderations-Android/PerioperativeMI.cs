@@ -176,7 +176,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Regional wall motion abnormalities or new/worse mitral regurgitation on TEE\n",
+                                    Text = "Regional wall motion abnormalities or new/worse mitral regurgitation on TEE\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

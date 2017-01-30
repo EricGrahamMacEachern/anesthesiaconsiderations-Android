@@ -176,7 +176,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Resuscitation of hemorrhagic shock\n",
+                                    Text = "Resuscitation of hemorrhagic shock\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -301,7 +301,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Optimization of oxygenation & ventilation to both lungs (good lung down, CPAP to bleeding lung)\n ",
+                                    Text = "Optimization of oxygenation & ventilation to both lungs (good lung down, CPAP to bleeding lung)\n\n ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

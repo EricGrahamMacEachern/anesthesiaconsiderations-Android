@@ -307,7 +307,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Apnea & desaturation in PACU\n",
+                                    Text = "Apnea & desaturation in PACU\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -412,7 +412,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Provide monitoring adequate to decrease morbidity from postoperative apnea\n",
+                                    Text = "Provide monitoring adequate to decrease morbidity from postoperative apnea\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -474,7 +474,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Desire to minimize narcotic use vs. contraindication/inability for regional",
+                                    Text = "Desire to minimize narcotic use vs. contraindication/inability for regional\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -670,7 +670,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "G ender = male\n",
+                                    Text = "G ender = male\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

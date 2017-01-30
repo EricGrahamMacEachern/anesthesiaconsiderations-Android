@@ -262,7 +262,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Post-op dispostion & apnea monitoring\n",
+                                    Text = "Post-op dispostion & apnea monitoring\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -345,7 +345,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Appropriate post-operative apnea monitoring\n",
+                                    Text = "Appropriate post-operative apnea monitoring\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -407,7 +407,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "RSI vs. hypovolemia",
+                                    Text = "RSI vs. hypovolemia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

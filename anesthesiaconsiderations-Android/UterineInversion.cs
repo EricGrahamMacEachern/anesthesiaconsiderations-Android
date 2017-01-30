@@ -154,7 +154,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Pregnancy considerations (difficult intubation, aspiration, ↓ time to desaturation, aortocaval compression, 2 patients)\n",
+                                    Text = "Pregnancy considerations (difficult intubation, aspiration, ↓ time to desaturation, aortocaval compression, 2 patients)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -258,7 +258,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Close communication with obstetrician during titration of tocolytic therapy\n",
+                                    Text = "Close communication with obstetrician during titration of tocolytic therapy\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -354,7 +354,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hypovolemic/cardiogenic shock/low cardiac output state → septic shock/high cardiac output state\n",
+                                    Text = "Hypovolemic/cardiogenic shock/low cardiac output state → septic shock/high cardiac output state\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -804,7 +804,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "AVOID: epinephrine, norepinephrine, ephedrine\n ",
+                                    Text = "AVOID: epinephrine, norepinephrine, ephedrine\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -908,7 +908,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Bronchospasm vs. need to avoid adrenergic agents\n",
+                                    Text = "Bronchospasm vs. need to avoid adrenergic agents\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1013,7 +1013,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Bronchospasm vs. need to avoid adrenergic agents\n",
+                                    Text = "Bronchospasm vs. need to avoid adrenergic agents\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

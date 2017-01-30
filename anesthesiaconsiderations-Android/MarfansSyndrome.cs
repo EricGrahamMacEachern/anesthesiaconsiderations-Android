@@ -575,7 +575,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "These patients are for elective aortic repair when ≥ 5cm \n",
+                                    Text = "These patients are for elective aortic repair when ≥ 5cm \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -616,7 +616,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Coexisting aortic root dilation (need to reduce cardiac output) vs MR/AI/LV dysfunction",
+                                    Text = "Coexisting aortic root dilation (need to reduce cardiac output) vs MR/AI/LV dysfunction \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

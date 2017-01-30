@@ -407,7 +407,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "But, some have persistent hypertension & develop kidney disease, chronic pain, depression/anxiety/suicidality \n",
+                                    Text = "But, some have persistent hypertension & develop kidney disease, chronic pain, depression/anxiety/suicidality \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -726,7 +726,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Seizures: use midazolam, propofol \n",
+                                    Text = "Seizures: use midazolam, propofol \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1209,7 +1209,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "AVOID phenytoin, barbiturates \n",
+                                    Text = "AVOID phenytoin, barbiturates \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1313,7 +1313,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Ergotamine is CONTRAINDICATED!  Use oxytocin, hemabate for postpartum hemorrhage ",
+                                    Text = "Ergotamine is CONTRAINDICATED!  Use oxytocin, hemabate for postpartum hemorrhage \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

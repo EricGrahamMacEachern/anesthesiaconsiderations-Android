@@ -259,7 +259,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Cr > 200 independent risk factor for cardiac complications & mortality\n",
+                                    Text = "Cr > 200 independent risk factor for cardiac complications & mortality\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -321,7 +321,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hemodynamic instability vs. RSI ",
+                                    Text = "Hemodynamic instability vs. RSI \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

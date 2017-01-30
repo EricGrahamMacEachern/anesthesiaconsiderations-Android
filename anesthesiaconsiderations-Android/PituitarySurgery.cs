@@ -578,7 +578,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Rapid smooth emergence \n",
+                                    Text = "Rapid smooth emergence \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

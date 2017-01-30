@@ -346,7 +346,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Medications: immunosuppresants, antineoplastics\n",
+                                    Text = "Medications: immunosuppresants, antineoplastics\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -642,7 +642,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Right upper quadrant syndrome\n",
+                                    Text = "Right upper quadrant syndrome\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1000,7 +1000,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Exchange transfusions are not routinely recommended\n",
+                                    Text = "Exchange transfusions are not routinely recommended\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1802,7 +1802,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Possibly inhaled nitric oxide for severe cases\n",
+                                    Text = "Possibly inhaled nitric oxide for severe cases\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -2120,7 +2120,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Regional blocks as appropriate, epidural use has been reported\n",
+                                    Text = "Regional blocks as appropriate, epidural use has been reported\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

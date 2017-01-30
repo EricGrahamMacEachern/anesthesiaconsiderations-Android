@@ -385,7 +385,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "ACE inhibitors, beta-blockers, digoxin, calcium channel blockers",
+                                    Text = "ACE inhibitors, beta-blockers, digoxin, calcium channel blockers\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -552,7 +552,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoid ↑ in pulmonary vascular resistance to mitigate right heart failure (avoid hypoxia, hypercarbia, acidosis, pain)\n",
+                                    Text = "Avoid ↑ in pulmonary vascular resistance to mitigate right heart failure (avoid hypoxia, hypercarbia, acidosis, pain)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

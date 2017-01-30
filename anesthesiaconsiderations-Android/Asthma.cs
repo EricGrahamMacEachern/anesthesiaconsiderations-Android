@@ -270,7 +270,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Stress dose steroids if recent high dose steroid use \n",
+                                        "Stress dose steroids if recent high dose steroid use \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -532,7 +532,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Postoperative monitoring for bronchospasm, respiratory failure\n",
+                                        "Postoperative monitoring for bronchospasm, respiratory failure\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1037,7 +1037,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "ECMO as last resort ",
+                                        "ECMO as last resort \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

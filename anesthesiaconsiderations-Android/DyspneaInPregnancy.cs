@@ -175,7 +175,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Pregnancy considerations (difficult intubation, aspiration, ↓ time to desaturation, aortocaval compression, 2 patients)",
+                                    Text = "Pregnancy considerations (difficult intubation, aspiration, ↓ time to desaturation, aortocaval compression, 2 patients)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -190,7 +190,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Pathological vs. Physiological Dyspnea ",
+                                    Text = "Pathological vs. Physiological Dyspnea",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

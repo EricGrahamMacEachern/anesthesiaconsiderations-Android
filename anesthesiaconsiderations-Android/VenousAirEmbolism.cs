@@ -217,7 +217,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Mill wheel murmur on cardiac auscultation (late sign)\n",
+                                    Text = "Mill wheel murmur on cardiac auscultation (late sign)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

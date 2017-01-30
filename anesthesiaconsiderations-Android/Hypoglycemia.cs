@@ -91,7 +91,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Neuroglycopenia: weakness, fatigue, altered mental status, coma",
+                                    Text = "Neuroglycopenia: weakness, fatigue, altered mental status, coma\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -237,7 +237,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Reactive (postprandial) hypoglycemia: idiopathic or enzyme deficiencies\n",
+                                    Text = "Reactive (postprandial) hypoglycemia: idiopathic or enzyme deficiencies\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

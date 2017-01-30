@@ -554,7 +554,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Amniotic fluid embolism \n",
+                                    Text = "Amniotic fluid embolism \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -408,7 +408,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Unprotected airway & aspiration risk\n",
+                                    Text = "Unprotected airway & aspiration risk\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -533,7 +533,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Good postoperative care: prone to laryngeal spasm & edema\n",
+                                    Text = "Good postoperative care: prone to laryngeal spasm & edema\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -595,7 +595,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Full stomach & laser surgery: laser ETT vs jet ventilation",
+                                    Text = "Full stomach & laser surgery: laser ETT vs jet ventilation\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -951,7 +951,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Risk of dynamic hyperinflation if obstructed airway with barotrauma (subcutaneous emphysema, pneumothorax/pneumomediastinum, tracheobronchial injury), hypoxemia, hypercarbia/hypocarbia, gastric distension & regurgitation due to scope malalignment, possible vocal cord motion if supraglottic, drying of laryngeal mucosa, distal spread of particulate matter with potential tracheobronchial viral or tumor seeding\n",
+                                    Text = "Risk of dynamic hyperinflation if obstructed airway with barotrauma (subcutaneous emphysema, pneumothorax/pneumomediastinum, tracheobronchial injury), hypoxemia, hypercarbia/hypocarbia, gastric distension & regurgitation due to scope malalignment, possible vocal cord motion if supraglottic, drying of laryngeal mucosa, distal spread of particulate matter with potential tracheobronchial viral or tumor seeding\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

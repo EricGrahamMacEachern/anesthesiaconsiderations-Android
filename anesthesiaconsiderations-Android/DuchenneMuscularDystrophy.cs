@@ -91,7 +91,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Becker muscle dystrophy is essentially a milder form of Duchenne \n",
+                                    Text = "Becker muscle dystrophy is essentially a milder form of Duchenne \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

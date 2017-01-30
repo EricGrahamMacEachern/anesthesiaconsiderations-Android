@@ -177,7 +177,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "After death is declared, 5 minutes must pass before organ procurement begins \n",
+                                    Text = "After death is declared, 5 minutes must pass before organ procurement begins \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -515,7 +515,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Trauma (potential for multi-organ involvement, pulmonary/cardiac contusions)\n",
+                                    Text = "Trauma (potential for multi-organ involvement, pulmonary/cardiac contusions)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -852,7 +852,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Trauma (potential for multi-organ involvement, pulmonary/cardiac contusions)\n",
+                                    Text = "Trauma (potential for multi-organ involvement, pulmonary/cardiac contusions)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

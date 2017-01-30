@@ -597,7 +597,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Medication management: beta blockers, ACEI, anticoagulation, diuretics\n",
+                                    Text = "Medication management: beta blockers, ACEI, anticoagulation, diuretics\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

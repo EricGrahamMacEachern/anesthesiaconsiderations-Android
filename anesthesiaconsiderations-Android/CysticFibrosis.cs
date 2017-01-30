@@ -280,7 +280,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "CF-related medications: oxygen, bronchodilators, mucolytics, antibiotics, steroids, insulin, pancreatic enzymes\n",
+                                    Text = "CF-related medications: oxygen, bronchodilators, mucolytics, antibiotics, steroids, insulin, pancreatic enzymes\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -511,7 +511,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Verify normal coagulation parameters prior to neuraxial/regional\n",
+                                    Text = "Verify normal coagulation parameters prior to neuraxial/regional\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

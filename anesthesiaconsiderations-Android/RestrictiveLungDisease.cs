@@ -367,7 +367,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "History of bleomycin, amiodarone use\n",
+                                    Text = "History of bleomycin, amiodarone use\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

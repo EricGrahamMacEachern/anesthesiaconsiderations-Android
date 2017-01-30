@@ -112,7 +112,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Cause unknown, most widely accepted theory is of an inflammatory immune-mediated disorder",
+                                    Text = "Cause unknown, most widely accepted theory is of an inflammatory immune-mediated disorder\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -515,7 +515,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Inform patient of potential perioperative aggravation of symptoms\n",
+                                    Text = "Inform patient of potential perioperative aggravation of symptoms\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -661,7 +661,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "RSI vs. avoid succinylcholine",
+                                    Text = "RSI vs. avoid succinylcholine\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

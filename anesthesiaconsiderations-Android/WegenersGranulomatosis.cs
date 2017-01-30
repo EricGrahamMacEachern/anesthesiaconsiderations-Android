@@ -239,7 +239,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Medications includuing immunosupressants\n",
+                                    Text = "Medications includuing immunosupressants\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -155,7 +155,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoid sympathetic stimulation: pain, anxiety, hypovolemia, ketamine ",
+                                    Text = "Avoid sympathetic stimulation: pain, anxiety, hypovolemia, ketamine \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -238,7 +238,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Reduce anxiety which may precipitate tachycardia ",
+                                    Text = "Reduce anxiety which may precipitate tachycardia \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -575,7 +575,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Ibutilide (Class III): if patient <60kg, 0.01mg/kg over 10min; if >60kg, 1mg over 10min\n",
+                                    Text = "Ibutilide (Class III): if patient <60kg, 0.01mg/kg over 10min; if >60kg, 1mg over 10min\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

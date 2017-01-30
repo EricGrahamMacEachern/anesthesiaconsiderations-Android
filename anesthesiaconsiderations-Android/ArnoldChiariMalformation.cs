@@ -94,7 +94,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Four major types (I-IV) ",
+                                        "Four major types (I-IV)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -381,7 +381,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Seizures ",
+                                        "Seizures\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

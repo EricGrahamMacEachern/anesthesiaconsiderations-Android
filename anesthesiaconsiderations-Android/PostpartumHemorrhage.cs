@@ -366,7 +366,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Consider early intubation if patient deteriorating\n",
+                                    Text = "Consider early intubation if patient deteriorating\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -766,7 +766,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Ketamine as induction medication\n",
+                                    Text = "Ketamine as induction medication\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

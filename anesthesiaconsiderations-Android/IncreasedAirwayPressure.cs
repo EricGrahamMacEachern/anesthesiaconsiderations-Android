@@ -576,7 +576,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Laryngospasm (if using supraglottic airway)\n",
+                                    Text = "Laryngospasm (if using supraglottic airway)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

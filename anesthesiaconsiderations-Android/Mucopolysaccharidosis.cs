@@ -154,7 +154,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "failed intubation 23%\n",
+                                    Text = "failed intubation 23%\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -787,7 +787,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hemorrhagic diathesis due to platelet dysfunction\n",
+                                    Text = "Hemorrhagic diathesis due to platelet dysfunction\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -301,7 +301,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Anesthetic drug effects on fetus (FHR changes, teratogenicity)",
+                                    Text = "Anesthetic drug effects on fetus (FHR changes, teratogenicity)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -511,7 +511,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Use regional anesthesia if possible",
+                                    Text = "Use regional anesthesia if possible\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -957,7 +957,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Regional\n",
+                                    Text = "Regional\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1105,7 +1105,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoid peripheral nerve injury \n",
+                                    Text = "Avoid peripheral nerve injury \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

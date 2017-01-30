@@ -331,7 +331,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Potential for postoperative re-obstruction post extubation & disposition to ICU/high acuity unit",
+                                    Text = "Potential for postoperative re-obstruction post extubation & disposition to ICU/high acuity unit\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

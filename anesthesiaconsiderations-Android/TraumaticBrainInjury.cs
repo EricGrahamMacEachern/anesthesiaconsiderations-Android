@@ -366,7 +366,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "DI (diabetes insipidus), SIADH (syndrome of inappropriate ADH), CSW (cerebral salt wasting)\n",
+                                    Text = "DI (diabetes insipidus), SIADH (syndrome of inappropriate ADH), CSW (cerebral salt wasting)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -533,7 +533,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Arrhythmias and hemodynamic instability",
+                                    Text = "Arrhythmias and hemodynamic instability\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -742,7 +742,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hct > 30\n",
+                                    Text = "Hct > 30\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -825,7 +825,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Difficult airway vs. ↑ ICP \n",
+                                    Text = "Difficult airway vs. ↑ ICP \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

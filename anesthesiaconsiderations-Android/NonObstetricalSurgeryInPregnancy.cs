@@ -218,7 +218,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Anesthetic drug effects on fetus (FHR changes, teratogenicity)",
+                                    Text = "Anesthetic drug effects on fetus (FHR changes, teratogenicity)\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

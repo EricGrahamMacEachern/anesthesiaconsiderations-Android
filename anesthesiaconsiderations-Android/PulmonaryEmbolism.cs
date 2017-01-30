@@ -175,7 +175,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Perioperative bridging of anticoagulation, always consider IVC filter\n",
+                                    Text = "Perioperative bridging of anticoagulation, always consider IVC filter\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

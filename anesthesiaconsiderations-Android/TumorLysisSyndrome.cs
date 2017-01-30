@@ -217,7 +217,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Chemotherapy &/or radiation with end-organ dysfunction",
+                                    Text = "Chemotherapy &/or radiation with end-organ dysfunction\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -70,7 +70,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Central dopamine deficiency leading to rigidity, tremors & late dementia",
+                                    Text = "Central dopamine deficiency leading to rigidity, tremors & late dementia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -682,7 +682,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Perioperative medication management\n",
+                                    Text = "Perioperative medication management\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -809,7 +809,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Prevent damage to device\n",
+                                    Text = "Prevent damage to device\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -978,7 +978,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Antiarrhytmics (overdose or withdrawal) \n",
+                                    Text = "Antiarrhytmics (overdose or withdrawal) \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1103,7 +1103,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Cardiac perforation/tamponade ",
+                                    Text = "Cardiac perforation/tamponade \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1273,7 +1273,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoid anti-dopaminergic medications: droperidol, metoclopramide, methotrimeprazine",
+                                    Text = "Avoid anti-dopaminergic medications: droperidol, metoclopramide, methotrimeprazine\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1336,7 +1336,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Regional anesthesia with tremulous patient vs risks of GA\n",
+                                    Text = "Regional anesthesia with tremulous patient vs risks of GA\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

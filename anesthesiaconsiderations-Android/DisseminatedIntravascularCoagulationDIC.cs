@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Disseminated Intravascular Coagulation (DIC) ",
+                Text = "Disseminated Intravascular Coagulation (DIC)\n\n",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
@@ -387,7 +387,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Thrombus: pulmonary embolism, acute renal failure, liver failure, stroke \n",
+                                    Text = "Thrombus: pulmonary embolism, acute renal failure, liver failure, stroke \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

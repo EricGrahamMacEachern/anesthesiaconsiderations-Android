@@ -404,7 +404,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Advanced treatments: prone position, inhaled nitric oxide, high frequency oscillatory ventilation (HFOV), ECMO",
+                                        "Advanced treatments: prone position, inhaled nitric oxide, high frequency oscillatory ventilation (HFOV), ECMO\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -468,7 +468,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Avoid further lung injury by using lung protective ventilation strategy",
+                                        "Avoid further lung injury by using lung protective ventilation strategy\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

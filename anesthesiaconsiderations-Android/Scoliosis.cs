@@ -322,7 +322,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Post-op pain control: clonidine, gabapentin, ketamine, opioids\n",
+                                    Text = "Post-op pain control: clonidine, gabapentin, ketamine, opioids\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

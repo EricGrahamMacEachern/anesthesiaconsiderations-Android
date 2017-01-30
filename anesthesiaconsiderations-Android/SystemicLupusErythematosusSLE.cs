@@ -472,7 +472,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Obstetric & cardiac anesthesia, especially in those with aPL antibodies or APS, requires multidisciplinary management at a specialist center\n",
+                                    Text = "Obstetric & cardiac anesthesia, especially in those with aPL antibodies or APS, requires multidisciplinary management at a specialist center\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -385,7 +385,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Optimize oxygen delivery",
+                                    Text = "Optimize oxygen delivery\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

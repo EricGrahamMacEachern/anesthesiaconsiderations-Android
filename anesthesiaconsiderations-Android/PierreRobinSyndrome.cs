@@ -240,7 +240,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "GERD, aspiration pneumonias\n",
+                                    Text = "GERD, aspiration pneumonias\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

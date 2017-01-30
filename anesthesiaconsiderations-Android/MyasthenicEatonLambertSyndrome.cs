@@ -348,7 +348,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Risk of perioperative myasthenic or cholinergic crises\n",
+                                    Text = "Risk of perioperative myasthenic or cholinergic crises\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -452,7 +452,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Optimize neuromuscular function\n",
+                                    Text = "Optimize neuromuscular function\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -558,7 +558,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Magnesium for pre-eclampsia in pregnancy vs contraindicated due to muscle weakness\n",
+                                    Text = "Magnesium for pre-eclampsia in pregnancy vs contraindicated due to muscle weakness\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -875,7 +875,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Neonatal myasthenia in 16% due to transfer of maternal IgG antibodies across the placenta, resolves in 3 to 4 weeks\n",
+                                    Text = "Neonatal myasthenia in 16% due to transfer of maternal IgG antibodies across the placenta, resolves in 3 to 4 weeks\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1065,7 +1065,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Send ABG, electrolytes",
+                                    Text = "Send ABG, electrolytes\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

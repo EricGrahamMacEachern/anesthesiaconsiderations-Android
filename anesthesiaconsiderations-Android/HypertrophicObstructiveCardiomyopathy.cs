@@ -323,7 +323,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Pacemaker/ AICD\n",
+                                    Text = "Pacemaker/ AICD\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -427,7 +427,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Afterload: maintain or ↑ afterload",
+                                    Text = "Afterload: maintain or ↑ afterload\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -784,7 +784,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Postpartum hemorrhage: oxytocin OK if given slowly; ergot a great agent",
+                                    Text = "Postpartum hemorrhage: oxytocin OK if given slowly; ergot a great agent\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

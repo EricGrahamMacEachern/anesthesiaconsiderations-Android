@@ -196,7 +196,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Post-op disposition: PICU & plan for extubation once process resolved\n",
+                                    Text = "Post-op disposition: PICU & plan for extubation once process resolved\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -385,7 +385,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Scoliosis (lung disease, pulmonary hypertension, RV failure)\n",
+                                    Text = "Scoliosis (lung disease, pulmonary hypertension, RV failure)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

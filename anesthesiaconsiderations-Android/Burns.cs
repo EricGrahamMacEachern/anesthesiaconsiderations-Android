@@ -562,7 +562,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Possible remote location",
+                                        "Possible remote location\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -729,7 +729,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Adequate analgesia (multimodal approach +/- antidepressants)\n",
+                                    Text = "Adequate analgesia (multimodal approach +/- antidepressants)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

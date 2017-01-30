@@ -91,7 +91,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Multisystem disorder characterized by skeletal muscle weakness & myotonia, cardiac conduction abnormalities, cataracts, testicular failure, hypogammaglobulinemia, & insulin resistance",
+                                    Text = "Multisystem disorder characterized by skeletal muscle weakness & myotonia, cardiac conduction abnormalities, cataracts, testicular failure, hypogammaglobulinemia, & insulin resistance\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -748,7 +748,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Muscle relaxants & IV anesthetics do NOT work\n",
+                                    Text = "Muscle relaxants & IV anesthetics do NOT work\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -875,7 +875,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Arrange appropriate disposition (need for post-operative monitoring, ventilation)",
+                                    Text = "Arrange appropriate disposition (need for post-operative monitoring, ventilation)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -916,7 +916,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Need to prevent aspiration (RSI) vs contraindication to succinylcholine & high dose rocuronium (as reversal with neostigmine contraindicated)\n ",
+                                    Text = "Need to prevent aspiration (RSI) vs contraindication to succinylcholine & high dose rocuronium (as reversal with neostigmine contraindicated)\n\n ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

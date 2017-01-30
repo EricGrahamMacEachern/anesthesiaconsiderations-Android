@@ -14,6 +14,12 @@ namespace FormsGallery
                     await this.Navigation.PushAsync(page);
                 });
 
+            Button pdfButton = new Button { Text = "DKA Protocol" };
+            pdfButton.Clicked += (sender, e) =>
+            {
+                Device.OpenUri(new Uri("http://www.bcchildrens.ca/endocrinology-diabetes-site/Documents/dkaprtfill.pdf"));
+            };
+
             BackgroundColor = Color.White;
 
             Label header = new Label
@@ -133,7 +139,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "+ ketones in urine/blood \n",
+                                    Text = "+ ketones in urine/blood \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -534,7 +540,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Medication noncompliance (insulin)\n",
+                                    Text = "Medication noncompliance (insulin)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -617,7 +623,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hypovolemia vs. aspiration risk (RSI)",
+                                    Text = "Hypovolemia vs. aspiration risk (RSI)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -721,7 +727,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Central pontine myelinolysis (rapid serum sodium correction)\n",
+                                    Text = "Central pontine myelinolysis (rapid serum sodium correction)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -784,10 +790,12 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "For example, see BC Children's Hospital's DKA protocol: link to http://www.bcchildrens.ca/endocrinology-diabetes-site/Documents/dkaprtfill.pdf",
+                                    Text = "For example, see BC Children's Hospital's DKA protocol: link to\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
-                                },
+                                },                           
+
+
                             }
                         },
 
@@ -1161,7 +1169,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = " Consider sodium bicarbonate if pH < 7 & myocardial dysfunction or vasodilation or life-threatening hyperkalemia \n ",
+                                    Text = " Consider sodium bicarbonate if pH < 7 & myocardial dysfunction or vasodilation or life-threatening hyperkalemia \n\n ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

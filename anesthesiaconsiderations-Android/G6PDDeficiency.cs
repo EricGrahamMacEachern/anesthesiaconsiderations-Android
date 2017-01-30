@@ -133,7 +133,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Acute insults that either precipitate or aggravate hemolysis include infection, certain drugs, & fava beans \n",
+                                    Text = "Acute insults that either precipitate or aggravate hemolysis include infection, certain drugs, & fava beans \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -426,7 +426,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Consider hematology consultation ",
+                                    Text = "Consider hematology consultation \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -530,7 +530,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Manage hemolysis by removing trigger, pRBC transfusion as needed, supportive management",
+                                    Text = "Manage hemolysis by removing trigger, pRBC transfusion as needed, supportive management\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

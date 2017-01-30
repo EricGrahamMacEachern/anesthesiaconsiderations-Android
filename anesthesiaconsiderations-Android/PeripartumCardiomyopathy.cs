@@ -91,7 +91,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Echocardiogram findings: global dilation & dysfunction, strict criteria for EF ≦ 45%",
+                                    Text = "Echocardiogram findings: global dilation & dysfunction, strict criteria for EF ≦ 45%\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -174,7 +174,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Management of cardiac medications & possible anti-coagulation ",
+                                    Text = "Management of cardiac medications & possible anti-coagulation \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

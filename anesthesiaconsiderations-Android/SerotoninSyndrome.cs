@@ -176,7 +176,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "It is seen with therapeutic medication use, drug interactions, & self-poisoning\n",
+                                    Text = "It is seen with therapeutic medication use, drug interactions, & self-poisoning\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -324,7 +324,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Psychiatric patient: co-operation, informed consent/substitute decision maker ",
+                                    Text = "Psychiatric patient: co-operation, informed consent/substitute decision maker\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

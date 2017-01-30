@@ -174,7 +174,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Thse websites does not give medical advice, nor do we provide medical or diagnostic services. Neither these websites or any of its affiliates or employees guarantee that the content covers all possible uses, direction, precautions, drug interactions, or adverse effects that may be associated with any therapeutic treatments. You may not rely on the application of any information on this website as being applicable to your specific circumstances. Neither these websites or any of its affiliates assume any liability or responsibility for damages or injury to you, other persons, or property arising from any use of any information, idea, or instruction contained in these websites. ",
+                                    Text = "Thse websites does not give medical advice, nor do we provide medical or diagnostic services. Neither these websites or any of its affiliates or employees guarantee that the content covers all possible uses, direction, precautions, drug interactions, or adverse effects that may be associated with any therapeutic treatments. You may not rely on the application of any information on this website as being applicable to your specific circumstances. Neither these websites or any of its affiliates assume any liability or responsibility for damages or injury to you, other persons, or property arising from any use of any information, idea, or instruction contained in these websites.\n\n ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -211,7 +211,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "You agree not to use these websites (anesthesiaconsiderations.com & anesthesiaconsiderations.ca) for any purpose that is unlawful or prohibited by these terms, or the terms of a subscriber agreement you have with these websites, if applicable. You may not use these websites in any manner that could damage, disable, overburden, or impair these websites' server(s), or the network(s) connected to any of these websites' servers, or interfere with any other party's use and enjoyment of these websites. You may not attempt to gain unauthorized access to any portion of these websites, other accounts, computer systems, or networks connected to these websites' servers, through hacking, password or data mining, or any other means. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available to you on these websites.",
+                                    Text = "You agree not to use these websites (anesthesiaconsiderations.com & anesthesiaconsiderations.ca) for any purpose that is unlawful or prohibited by these terms, or the terms of a subscriber agreement you have with these websites, if applicable. You may not use these websites in any manner that could damage, disable, overburden, or impair these websites' server(s), or the network(s) connected to any of these websites' servers, or interfere with any other party's use and enjoyment of these websites. You may not attempt to gain unauthorized access to any portion of these websites, other accounts, computer systems, or networks connected to these websites' servers, through hacking, password or data mining, or any other means. You may not obtain or attempt to obtain any materials or information through any means not intentionally made available to you on these websites.\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -282,7 +282,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "In addition, please note that this website may include technical inaccuracies or typographical errors.  These websites have the right at any time to change, modify, add to, discontinue, or retire any aspect or feature of these websites, including, but not limited to, hours of availability, equipment needed for access or use, or the availability of these websites' services on any particular device or communications service. These websites have no obligation to provide you with notice of any such changes, and these websites are under no obligation to provide you with any support, error corrections, updates, upgrades, bug fixes, and/or enhancements of these websites, except as provided by your subscriber agreement with these websites, if applicable.",
+                                    Text = "In addition, please note that this website may include technical inaccuracies or typographical errors.  These websites have the right at any time to change, modify, add to, discontinue, or retire any aspect or feature of these websites, including, but not limited to, hours of availability, equipment needed for access or use, or the availability of these websites' services on any particular device or communications service. These websites have no obligation to provide you with notice of any such changes, and these websites are under no obligation to provide you with any support, error corrections, updates, upgrades, bug fixes, and/or enhancements of these websites, except as provided by your subscriber agreement with these websites, if applicable.\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -337,7 +337,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Some states or other jurisdictions do not allow limitations on how long an implied warranty lasts and some jurisdictions do not allow the exclusion or limitation of special, indirect, incidental, exemplary, or consequential damages, or the limitation of liability to specified amounts, so the above limitation and exclusion may not apply to you if prohibited by applicable law.",
+                                    Text = "Some states or other jurisdictions do not allow limitations on how long an implied warranty lasts and some jurisdictions do not allow the exclusion or limitation of special, indirect, incidental, exemplary, or consequential damages, or the limitation of liability to specified amounts, so the above limitation and exclusion may not apply to you if prohibited by applicable law.\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -374,7 +374,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "You agree to defend, indemnify, and hold harmless these websites and all its affiliates from all liabilities, claims, and expenses, including attorneys' fees, that arise from your use of these websites.  These websites reserve the right, at their own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will cooperate with these websites in asserting any available defenses. ",
+                                    Text = "You agree to defend, indemnify, and hold harmless these websites and all its affiliates from all liabilities, claims, and expenses, including attorneys' fees, that arise from your use of these websites.  These websites reserve the right, at their own expense, to assume the exclusive defense and control of any matter otherwise subject to indemnification by you, in which event you will cooperate with these websites in asserting any available defenses.\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

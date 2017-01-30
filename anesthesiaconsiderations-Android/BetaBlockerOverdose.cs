@@ -221,7 +221,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Comorbid disease (CAD, CHF, atrial fibrillation, dysrhythmias, HOCM) \n",
+                                    Text = "Comorbid disease (CAD, CHF, atrial fibrillation, dysrhythmias, HOCM) \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

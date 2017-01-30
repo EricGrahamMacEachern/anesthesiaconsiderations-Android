@@ -408,7 +408,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "If non-severe preeclampsia > 37 wks gestational age\n",
+                                    Text = "If non-severe preeclampsia > 37 wks gestational age\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -597,7 +597,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hypertensive crisis\n",
+                                    Text = "Hypertensive crisis\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1021,7 +1021,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "SOGC 2014 guidelines suggest > 75 is safe unless coagulopathy, falling platelet count or other antiplatelet agents\n",
+                                    Text = "SOGC 2014 guidelines suggest > 75 is safe unless coagulopathy, falling platelet count or other antiplatelet agents\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -176,7 +176,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Need for quiet surgical field & airway control",
+                                    Text = "Need for quiet surgical field & airway control\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -259,7 +259,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Preparation for transfusion: large bore IV, cross match, consider lower extremity IV\n",
+                                    Text = "Preparation for transfusion: large bore IV, cross match, consider lower extremity IV\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -384,7 +384,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Relative: SVC syndrome, tracheal deviation, thoracic aortic aneurysm, radiation",
+                                    Text = "Relative: SVC syndrome, tracheal deviation, thoracic aortic aneurysm, radiation\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

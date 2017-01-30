@@ -387,7 +387,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Diminished amplitude or inversion of T waves\n",
+                                    Text = "Diminished amplitude or inversion of T waves\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -556,7 +556,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "AV junctional & heart blocks \n ",
+                                    Text = "AV junctional & heart blocks \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

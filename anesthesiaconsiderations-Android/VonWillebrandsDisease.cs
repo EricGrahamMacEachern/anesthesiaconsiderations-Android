@@ -134,7 +134,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Consultation with hematology for factor optimization (replacement/supplementation)",
+                                    Text = "Consultation with hematology for factor optimization (replacement/supplementation)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -198,7 +198,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Techniques for minimizing perioperative blood loss\n",
+                                    Text = "Techniques for minimizing perioperative blood loss\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -429,7 +429,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Consider antifibrinolytics during perioperative period (up to 3-5 days)\n",
+                                    Text = "Consider antifibrinolytics during perioperative period (up to 3-5 days)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -619,7 +619,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Emergency: cryoprecipitate (contains vWF, FVIII, FXIII, fibronectin, fibrinogen)\n",
+                                    Text = "Emergency: cryoprecipitate (contains vWF, FVIII, FXIII, fibronectin, fibrinogen)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -809,7 +809,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Regional: epidural safe if factor VIII & vWF > 50%\n",
+                                    Text = "Regional: epidural safe if factor VIII & vWF > 50%\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

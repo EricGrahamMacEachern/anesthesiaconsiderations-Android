@@ -112,7 +112,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Presents as recurrent bouts of angioedema involving the extremities, face, oropharynx, larynx, GI, and/or GU tract lasting 24-72 hours \n",
+                                    Text = "Presents as recurrent bouts of angioedema involving the extremities, face, oropharynx, larynx, GI, and/or GU tract lasting 24-72 hours \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -216,7 +216,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Need for postop monitoring (onset may be delayed 60 mins to 36 hours after trigger)\n",
+                                    Text = "Need for postop monitoring (onset may be delayed 60 mins to 36 hours after trigger)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -341,7 +341,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Ensure ready availability of treatment modalities for acute attack including difficult airway kit/surgical airway\n",
+                                    Text = "Ensure ready availability of treatment modalities for acute attack including difficult airway kit/surgical airway\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

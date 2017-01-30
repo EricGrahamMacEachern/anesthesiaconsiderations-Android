@@ -331,7 +331,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Management of medical therapy (diuretics, anticoagulants)",
+                                        "Management of medical therapy (diuretics, anticoagulants)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -346,7 +346,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Hemodynamic goals",
+                                    Text = "Hemodynamic goals",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -477,7 +477,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Afterload: keep afterload low to promote forward flow ",
+                                        "Afterload: keep afterload low to promote forward flow\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -492,7 +492,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "\n Management of severe acute aortic regurgitation",
+                                    Text = "Management of severe acute aortic regurgitation",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },

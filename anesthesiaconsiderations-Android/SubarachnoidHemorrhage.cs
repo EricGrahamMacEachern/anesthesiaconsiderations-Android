@@ -429,7 +429,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Electrolyte imbalances (hyponatremia due to cerebral salt wasting, SIADH)\n",
+                                    Text = "Electrolyte imbalances (hyponatremia due to cerebral salt wasting, SIADH)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -705,7 +705,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Prevent vasospasm (nimodipine, pravastatin)\n",
+                                    Text = "Prevent vasospasm (nimodipine, pravastatin)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -768,7 +768,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Minimize transmural pressure (deep induction to prevent rebleed) vs maintain CPP (hemodynamic support to prevent ischemia)\n ",
+                                    Text = "Minimize transmural pressure (deep induction to prevent rebleed) vs maintain CPP (hemodynamic support to prevent ischemia)\n\n ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

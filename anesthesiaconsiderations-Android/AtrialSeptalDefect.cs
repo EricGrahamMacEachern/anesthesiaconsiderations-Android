@@ -401,7 +401,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Complications (tamponade, arrhythmias, valve disruption, & emboli)\n",
+                                        "Complications (tamponade, arrhythmias, valve disruption, & emboli)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -575,7 +575,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "De-air lines (risk of pulmonary air embolism) ",
+                                        "De-air lines (risk of pulmonary air embolism) \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

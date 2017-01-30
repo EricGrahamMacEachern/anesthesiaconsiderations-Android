@@ -154,7 +154,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "RVOT obstruction",
+                                    Text = "RVOT obstruction\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -406,7 +406,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "No AIR in IVs!\n",
+                                    Text = "No AIR in IVs!\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -659,7 +659,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Phenylephrine 5 mcg/kg, propanolol 0.1-0.3mg/kg (to ↓ infundibular spasm)\n",
+                                    Text = "Phenylephrine 5 mcg/kg, propanolol 0.1-0.3mg/kg (to ↓ infundibular spasm)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -869,7 +869,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoid propofol/remifentanil in these kids to prevent reduced SVR/contractility\n",
+                                    Text = "Avoid propofol/remifentanil in these kids to prevent reduced SVR/contractility\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

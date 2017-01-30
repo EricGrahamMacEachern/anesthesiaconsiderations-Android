@@ -239,7 +239,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Difficult airway management & possible need for awake fiberoptic bronchoscopic intubation\n",
+                                    Text = "Difficult airway management & possible need for awake fiberoptic bronchoscopic intubation\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -385,7 +385,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Direct visualization probably the best method of airway management & double set-up always the safest option",
+                                    Text = "Direct visualization probably the best method of airway management & double set-up always the safest option\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

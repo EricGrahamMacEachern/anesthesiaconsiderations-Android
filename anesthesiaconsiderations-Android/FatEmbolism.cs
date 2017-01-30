@@ -112,7 +112,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Petechial rash (only 20-50% of patients; usually on conjuctiva, oral mucosa, skin folds of neck & axillae)\n",
+                                    Text = "Petechial rash (only 20-50% of patients; usually on conjuctiva, oral mucosa, skin folds of neck & axillae)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

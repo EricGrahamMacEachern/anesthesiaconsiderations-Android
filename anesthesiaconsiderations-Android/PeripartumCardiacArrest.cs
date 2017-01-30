@@ -303,7 +303,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Aggressive interventions for difficult resuscitation (cardiopulmonary bypass, hypothermia, internal cardiac massage)",
+                                    Text = "Aggressive interventions for difficult resuscitation (cardiopulmonary bypass, hypothermia, internal cardiac massage)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -599,7 +599,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "S epsis\n",
+                                    Text = "S epsis\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

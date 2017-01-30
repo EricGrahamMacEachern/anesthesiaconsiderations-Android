@@ -305,7 +305,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Edema/obstruction (surgery makes airway management more difficult)\n",
+                                    Text = "Edema/obstruction (surgery makes airway management more difficult)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

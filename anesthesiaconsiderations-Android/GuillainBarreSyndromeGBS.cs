@@ -154,7 +154,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "​Forced vital capacity < 20 mL/kg, maximum inspiratory pressure < 30 cmH2O, or maximum expiratory pressure < 40 cmH2O → high risk of impending respiratory failure, urgent intubation & mechanical ventilation\n",
+                                    Text = "​Forced vital capacity < 20 mL/kg, maximum inspiratory pressure < 30 cmH2O, or maximum expiratory pressure < 40 cmH2O → high risk of impending respiratory failure, urgent intubation & mechanical ventilation\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -405,7 +405,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Treatment includes IVIG & plasma exchange, steroids NOT recommended",
+                                    Text = "Treatment includes IVIG & plasma exchange, steroids NOT recommended\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -488,7 +488,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Maintain hemodynamic stability\n",
+                                    Text = "Maintain hemodynamic stability\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -550,7 +550,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Neurologic deficits & regional techniques\n",
+                                    Text = "Neurologic deficits & regional techniques\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

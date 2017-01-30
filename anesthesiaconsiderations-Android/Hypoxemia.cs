@@ -722,7 +722,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Dyes (methylene blue, indigo carmine, blue nail polish)",
+                                    Text = "Dyes (methylene blue, indigo carmine, blue nail polish)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

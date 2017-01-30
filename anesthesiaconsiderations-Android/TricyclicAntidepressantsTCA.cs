@@ -217,7 +217,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Greatest risk of seizure & arrhythmias occurs in first 6-8 hours of TCA ingestion",
+                                    Text = "Greatest risk of seizure & arrhythmias occurs in first 6-8 hours of TCA ingestion\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -363,7 +363,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Anticholinergic toxidrome (red, hot, mydriasis, dry, delirium)\n",
+                                    Text = "Anticholinergic toxidrome (red, hot, mydriasis, dry, delirium)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -825,7 +825,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hemodialysis NOT effective\n",
+                                    Text = "Hemodialysis NOT effective\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -513,7 +513,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Non-depolarizer muscle relaxants: resistance\n",
+                                    Text = "Non-depolarizer muscle relaxants: resistance\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -806,7 +806,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Dialysis \n",
+                                    Text = "Dialysis \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

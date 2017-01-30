@@ -217,7 +217,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Potential need for lung isolation to improve surgical exposure\n",
+                                    Text = "Potential need for lung isolation to improve surgical exposure\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -175,7 +175,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↑ PTT, normal INR \n",
+                                    Text = "↑ PTT, normal INR \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -321,7 +321,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Consider preoperative hematology consultation\n",
+                                    Text = "Consider preoperative hematology consultation\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -383,7 +383,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Minimize perioperative blood loss; consider blood conservation strategies\n",
+                                    Text = "Minimize perioperative blood loss; consider blood conservation strategies\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -613,7 +613,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Factor IX concentrates",
+                                    Text = "Factor IX concentrates\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

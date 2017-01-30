@@ -260,7 +260,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Paralysis usually affects the limbs and trunk, but spares the diaphragm. Chronic muscle weakness occurs in most patients as they age\n",
+                                    Text = "Paralysis usually affects the limbs and trunk, but spares the diaphragm. Chronic muscle weakness occurs in most patients as they age\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

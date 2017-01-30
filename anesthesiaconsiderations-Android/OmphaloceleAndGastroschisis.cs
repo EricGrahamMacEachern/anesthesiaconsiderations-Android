@@ -115,7 +115,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Gastroschisis: hernia sac does not cover the herniated abdominal viscera.  Therefore, the bowel is exposed to the external environment \n",
+                                    Text = "Gastroschisis: hernia sac does not cover the herniated abdominal viscera.  Therefore, the bowel is exposed to the external environment \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -412,7 +412,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Congenital heart disease considerations if present with omphalocele\n",
+                                    Text = "Congenital heart disease considerations if present with omphalocele\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -112,7 +112,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Neurofibromas nearly always involve the skin, but they can also occur in the deeper peripheral nerves & nerve roots & in or on viscera or blood vessels innervated by the autonomic nervous system\n ",
+                                    Text = "Neurofibromas nearly always involve the skin, but they can also occur in the deeper peripheral nerves & nerve roots & in or on viscera or blood vessels innervated by the autonomic nervous system\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -618,7 +618,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Possible endocrine problems: pheochromocytoma, hypoglycemia, pituitary tumours, hyperparathyroidism, medullary thyroid carcinoma\n",
+                                    Text = "Possible endocrine problems: pheochromocytoma, hypoglycemia, pituitary tumours, hyperparathyroidism, medullary thyroid carcinoma\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -807,7 +807,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↑ ICP vs difficult airway \n",
+                                    Text = "↑ ICP vs difficult airway \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

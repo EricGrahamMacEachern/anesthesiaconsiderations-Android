@@ -357,7 +357,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Chest pain/myocardial ischemia \n",
+                                        "Chest pain/myocardial ischemia \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -465,7 +465,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Difficult to assess success of neuraxial technique \n",
+                                        "Difficult to assess success of neuraxial technique \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -725,7 +725,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Look for evidence of end-organ involvement & treat accordingly \n",
+                                    Text = "Look for evidence of end-organ involvement & treat accordingly \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

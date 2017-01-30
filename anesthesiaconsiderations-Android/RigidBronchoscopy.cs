@@ -239,7 +239,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Procedure specific complications: hemorrhage, airway trauma, perforation, fire, systemic gas embolism, & dissemination of postobstructive pneumonia\n",
+                                    Text = "Procedure specific complications: hemorrhage, airway trauma, perforation, fire, systemic gas embolism, & dissemination of postobstructive pneumonia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -302,7 +302,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoidance of dynamic hyperinflation & cardiovascular compromise\n",
+                                    Text = "Avoidance of dynamic hyperinflation & cardiovascular compromise\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

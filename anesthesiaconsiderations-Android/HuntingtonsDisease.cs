@@ -112,7 +112,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Onset is typically between 35-40 years of age, but can be as late as 80 years. The disease continues to progress for several years with death occuring 17-20 years after diagnosis & is usually from malnutrition or aspiration pneumonitis",
+                                    Text = "Onset is typically between 35-40 years of age, but can be as late as 80 years. The disease continues to progress for several years with death occuring 17-20 years after diagnosis & is usually from malnutrition or aspiration pneumonitis\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

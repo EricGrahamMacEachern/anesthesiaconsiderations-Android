@@ -92,7 +92,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Pathology requiring surgery usually includes: congenital lesions (e.g. Arnold-Chiari malformation), tumours, acoustic neuromas, vascular lesions",
+                                    Text = "Pathology requiring surgery usually includes: congenital lesions (e.g. Arnold-Chiari malformation), tumours, acoustic neuromas, vascular lesions\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -306,7 +306,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Limited access to patient (foresight required in planning airway, access, monitoring)\n",
+                                    Text = "Limited access to patient (foresight required in planning airway, access, monitoring)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

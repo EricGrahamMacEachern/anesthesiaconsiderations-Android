@@ -659,7 +659,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Cerebral hyperperfusion syndrome (post carotid endarterectomy) \n",
+                                    Text = "Cerebral hyperperfusion syndrome (post carotid endarterectomy) \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -70,7 +70,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Rare, autosomal dominant, inherited disease of connective tissue that affects bones, the sclera, & the inner ear, bones are extremely brittle\n",
+                                    Text = "Rare, autosomal dominant, inherited disease of connective tissue that affects bones, the sclera, & the inner ear, bones are extremely brittle\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -323,7 +323,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hypermetabolic: prone to hyperthermia but not malignant hyperthermia (MH) risk \n",
+                                    Text = "Hypermetabolic: prone to hyperthermia but not malignant hyperthermia (MH) risk \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -408,7 +408,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Monitoring/positioning vs. brittle bones ",
+                                    Text = "Monitoring/positioning vs. brittle bones\n\n ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -113,7 +113,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "​Vascular type associated with ↑ risk of death \n ",
+                                    Text = "​Vascular type associated with ↑ risk of death \n\n ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -301,7 +301,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Regional anesthesia is relatively contraindicated due to hematoma risk \n",
+                                    Text = "Regional anesthesia is relatively contraindicated due to hematoma risk \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

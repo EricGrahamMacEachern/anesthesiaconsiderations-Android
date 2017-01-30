@@ -336,7 +336,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Pacemaker/ AICD\n",
+                                        "Pacemaker/ AICD\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -441,7 +441,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Afterload: maintain or ↑ afterload \n",
+                                    Text = "Afterload: maintain or ↑ afterload \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -833,7 +833,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Titrate to urine pH > 7.5.  \n",
+                                    Text = "Titrate to urine pH > 7.5.  \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

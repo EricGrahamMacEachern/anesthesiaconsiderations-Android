@@ -154,7 +154,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "​Cardiac & hepatic dysfunction secondary to destruction of normal tissue by accumulated glycogen\n",
+                                    Text = "​Cardiac & hepatic dysfunction secondary to destruction of normal tissue by accumulated glycogen\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

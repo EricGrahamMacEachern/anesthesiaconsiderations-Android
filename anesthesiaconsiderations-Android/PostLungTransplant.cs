@@ -281,7 +281,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Side effects: hematologic, renal, hepatic\n",
+                                    Text = "Side effects: hematologic, renal, hepatic\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

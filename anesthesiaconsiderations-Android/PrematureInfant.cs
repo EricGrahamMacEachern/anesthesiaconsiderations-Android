@@ -364,7 +364,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Post op apnea monitoring\n",
+                                    Text = "Post op apnea monitoring\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -238,7 +238,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Minimize NPO interval, maintain intravascular volume (↓ preload results in ↓ pulmonary blood flow & cardiac output)\n",
+                                    Text = "Minimize NPO interval, maintain intravascular volume (↓ preload results in ↓ pulmonary blood flow & cardiac output)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -573,7 +573,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Postoperative monitoring in HAU/ICU \n",
+                                    Text = "Postoperative monitoring in HAU/ICU \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -971,7 +971,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Treat postoperative nausea & vomiting to permit adequate hydration, prevent dehydration & electrolyte loss, & allow the patient to resume their medication regimen\n",
+                                    Text = "Treat postoperative nausea & vomiting to permit adequate hydration, prevent dehydration & electrolyte loss, & allow the patient to resume their medication regimen\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1096,7 +1096,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "If GA required, use strategies mentioned above \n",
+                                    Text = "If GA required, use strategies mentioned above \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

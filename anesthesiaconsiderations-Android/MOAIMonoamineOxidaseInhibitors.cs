@@ -133,7 +133,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "CNS 'type II' reaction: ↓ hepatic opioid metabolism & thus opioid build-up causing sedation, respiratory depression, & cardiovascular collapse \n",
+                                    Text = "CNS 'type II' reaction: ↓ hepatic opioid metabolism & thus opioid build-up causing sedation, respiratory depression, & cardiovascular collapse \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

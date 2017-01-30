@@ -345,7 +345,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Need discussion with obstetrics regarding urgency of the distress & need for STAT delivery, maternal safety is the guiding factor \n",
+                                    Text = "Need discussion with obstetrics regarding urgency of the distress & need for STAT delivery, maternal safety is the guiding factor \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -470,7 +470,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Vasopressors to maintain uteroplacental perfusion \n",
+                                    Text = "Vasopressors to maintain uteroplacental perfusion \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -595,7 +595,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Vasopressors to maintain uteroplacental perfusion \n",
+                                    Text = "Vasopressors to maintain uteroplacental perfusion \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -699,7 +699,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Early decelerations & accelerations may be present or absent\n",
+                                    Text = "Early decelerations & accelerations may be present or absent\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -824,7 +824,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Sinusoidal pattern \n",
+                                    Text = "Sinusoidal pattern \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

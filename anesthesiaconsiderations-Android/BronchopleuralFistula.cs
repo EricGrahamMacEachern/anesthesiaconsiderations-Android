@@ -373,7 +373,7 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Postoperative ICU disposition for PPV\n",
+                                        "Postoperative ICU disposition for PPV\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

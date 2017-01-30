@@ -407,7 +407,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Laparascopic vs. open (pain & disposition)\n",
+                                    Text = "Laparascopic vs. open (pain & disposition)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

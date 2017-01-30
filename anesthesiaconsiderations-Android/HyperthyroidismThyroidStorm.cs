@@ -323,7 +323,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Airway obstruction (tracheomalacia, recurrent laryngeal nerve injury, neck hematoma, hypocalcemia)\n",
+                                    Text = "Airway obstruction (tracheomalacia, recurrent laryngeal nerve injury, neck hematoma, hypocalcemia)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -406,7 +406,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Identify & manage thyroid storm\n",
+                                    Text = "Identify & manage thyroid storm\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -468,7 +468,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hemodynamic instability & RSI",
+                                    Text = "Hemodynamic instability & RSI\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

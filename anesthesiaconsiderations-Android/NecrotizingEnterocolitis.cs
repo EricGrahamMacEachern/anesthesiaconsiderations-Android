@@ -264,7 +264,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Birth asphyxia, hypotension, respiratory distress syndrome, patent ductus arteriosus, recurrent apnea, intestinal ischemia, systemic infections",
+                                    Text = "Birth asphyxia, hypotension, respiratory distress syndrome, patent ductus arteriosus, recurrent apnea, intestinal ischemia, systemic infections\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

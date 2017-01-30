@@ -91,7 +91,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Dermatomyositis but not polymyositis is associated with a variety of characteristic skin manifestations\n",
+                                    Text = "Dermatomyositis but not polymyositis is associated with a variety of characteristic skin manifestations\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -323,7 +323,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Treatment: steroids, immunosuppressants, IVIG, monoclonal antibodies",
+                                    Text = "Treatment: steroids, immunosuppressants, IVIG, monoclonal antibodies\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -406,7 +406,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "RSI for aspiration risk vs. cardiac induction\n ",
+                                    Text = "RSI for aspiration risk vs. cardiac induction\n\n ",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

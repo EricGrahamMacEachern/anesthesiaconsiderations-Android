@@ -260,7 +260,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Extrapyramidal features such as choreoathetoid/dystonic movements or ataxia\n",
+                                    Text = "Extrapyramidal features such as choreoathetoid/dystonic movements or ataxia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

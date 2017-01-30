@@ -134,7 +134,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Metabolic: hyperthermia, malnutrition, metabolic acidosis, rhadbomyolysis,",
+                                    Text = "Metabolic: hyperthermia, malnutrition, metabolic acidosis, rhadbomyolysis,\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

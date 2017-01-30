@@ -343,7 +343,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Related to end organ disease\n",
+                                    Text = "Related to end organ disease\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -554,7 +554,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Type II diabetes, on insulin: fast, insulin dose depends on type (see below), start D5W infusion \n",
+                                    Text = "Type II diabetes, on insulin: fast, insulin dose depends on type (see below), start D5W infusion \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -617,7 +617,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hypoglycemia\n",
+                                    Text = "Hypoglycemia",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -785,7 +785,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Respiratory distress syndrome ",
+                                    Text = "Respiratory distress syndrome \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

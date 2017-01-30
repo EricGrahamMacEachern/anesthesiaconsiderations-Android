@@ -367,7 +367,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "DIC, consumptive coagulopathy\n",
+                                    Text = "DIC, consumptive coagulopathy\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

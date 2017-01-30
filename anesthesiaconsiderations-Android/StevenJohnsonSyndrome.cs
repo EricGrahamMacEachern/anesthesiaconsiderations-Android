@@ -326,7 +326,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Significant pain requiring multimodal analgesia\n",
+                                    Text = "Significant pain requiring multimodal analgesia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

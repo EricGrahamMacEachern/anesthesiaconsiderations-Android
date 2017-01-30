@@ -112,7 +112,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Ectopic hyperparathyroidism: due to secretion of parathyroid hormone (or a substance with similar endocrine effects) by tissues other than the parathyroid glands\n",
+                                    Text = "Ectopic hyperparathyroidism: due to secretion of parathyroid hormone (or a substance with similar endocrine effects) by tissues other than the parathyroid glands\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -574,7 +574,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Mandibular fracture\n",
+                                    Text = "Mandibular fracture\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -848,7 +848,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Airway vigilance postoperatively\n",
+                                    Text = "Airway vigilance postoperatively\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

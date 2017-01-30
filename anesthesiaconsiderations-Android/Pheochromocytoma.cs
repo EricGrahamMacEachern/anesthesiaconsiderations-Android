@@ -535,7 +535,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Pneumothorax\n",
+                                    Text = "Pneumothorax\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -787,7 +787,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Deep anesthesia vs. hypovolemia\n",
+                                    Text = "Deep anesthesia vs. hypovolemia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1043,7 +1043,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Often misdiagnosed as pre-eclampsia\n",
+                                    Text = "Often misdiagnosed as pre-eclampsia\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

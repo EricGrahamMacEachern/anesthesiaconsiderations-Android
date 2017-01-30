@@ -199,6 +199,7 @@
     <Compile Include="CerebralPalsy.cs" />
     <Compile Include="CervicalCerclage.cs" />
     <Compile Include="ChronicRenalFailure.cs" />
+    <Compile Include="Cirrhosis.cs" />
     <Compile Include="CleftLipAndPalate.cs" />
     <Compile Include="CocaineToxicity.cs" />
     <Compile Include="CongenitalDiaphragmaticHernia.cs" />

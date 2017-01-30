@@ -176,7 +176,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Decontamination/exposure to medical personal\n",
+                                    Text = "Decontamination/exposure to medical personal\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

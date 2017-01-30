@@ -280,7 +280,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Arrhythmias & hemodynamic instability\n",
+                                    Text = "Arrhythmias & hemodynamic instability\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -426,7 +426,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Facilitate intraoperative neurological monitoring\n",
+                                    Text = "Facilitate intraoperative neurological monitoring\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

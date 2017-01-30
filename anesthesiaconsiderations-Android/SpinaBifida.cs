@@ -365,7 +365,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Patients with cord abnormalities have cutaneous stigmata in 50% of cases & 70% have tethered spinal cord\n",
+                                    Text = "Patients with cord abnormalities have cutaneous stigmata in 50% of cases & 70% have tethered spinal cord\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -427,7 +427,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Patients with cord abnormalities have cutaneous stigmata in 50% of cases & 70% have tethered spinal cord\n",
+                                    Text = "Patients with cord abnormalities have cutaneous stigmata in 50% of cases & 70% have tethered spinal cord\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -637,7 +637,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Bowel & bladder control dysfunction",
+                                    Text = "Bowel & bladder control dysfunction\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -889,7 +889,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↑ incidence of latex allergy\n",
+                                    Text = "↑ incidence of latex allergy\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -344,7 +344,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Need for brief motor relaxation to prevent physical harm to patient \n",
+                                    Text = "Need for brief motor relaxation to prevent physical harm to patient \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -511,7 +511,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "​If propofol interfering with seizure activity: consider reducing dose, adding remifentanil or etomidate",
+                                    Text = "​If propofol interfering with seizure activity: consider reducing dose, adding remifentanil or etomidate\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -574,7 +574,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hx pseudocholinesterase deficiency/MH: use NDMR & reverse\n",
+                                    Text = "Hx pseudocholinesterase deficiency/MH: use NDMR & reverse\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

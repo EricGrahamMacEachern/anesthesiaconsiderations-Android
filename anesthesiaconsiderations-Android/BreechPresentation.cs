@@ -374,7 +374,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Replace K+ if < 2.5",
+                                    Text = "Replace K+ if < 2.5\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

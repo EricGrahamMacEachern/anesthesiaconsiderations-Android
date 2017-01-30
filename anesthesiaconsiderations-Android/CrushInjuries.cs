@@ -175,7 +175,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "DIC (rare, can happen with severe rhabdomyolysis) \n",
+                                    Text = "DIC (rare, can happen with severe rhabdomyolysis) \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

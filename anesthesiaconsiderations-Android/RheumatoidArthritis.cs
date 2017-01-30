@@ -260,7 +260,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Technical difficulties with lines & patient positioning, fragile skin\n",
+                                    Text = "Technical difficulties with lines & patient positioning, fragile skin\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -365,7 +365,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Rule out systemic disease & manage any existing abnormalities, especially cardiopulmonary \n",
+                                    Text = "Rule out systemic disease & manage any existing abnormalities, especially cardiopulmonary \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -492,7 +492,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "If GA: very cautious airway management!!",
+                                    Text = "If GA: very cautious airway management!!\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -366,7 +366,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Potential or R → L shunt through PFO: hypoxemia & paradoxical emboli\n",
+                                    Text = "Potential or R → L shunt through PFO: hypoxemia & paradoxical emboli\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -534,7 +534,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "↓ PVR \n",
+                                    Text = "↓ PVR \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -659,7 +659,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Hemodynamic stability vs need for RSI\n",
+                                    Text = "Hemodynamic stability vs need for RSI\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1230,7 +1230,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Avoid ergotamine & carboprost; use oxytocin & misoprostol \n",
+                                    Text = "Avoid ergotamine & carboprost; use oxytocin & misoprostol \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

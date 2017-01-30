@@ -450,7 +450,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "GI: ischemia, ulceration, perforation\n",
+                                    Text = "GI: ischemia, ulceration, perforation\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -554,7 +554,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Placental abruption, uncooperative OB patient, difficult airway\n",
+                                    Text = "Placental abruption, uncooperative OB patient, difficult airway\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -282,7 +282,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Choice of anesthetic: GA or spinal\n",
+                                    Text = "Choice of anesthetic: GA or spinal\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -407,7 +407,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Problems in PAR include: post-op delirium, hypotension, respiratory distress (need to consider comorbidities)\n",
+                                    Text = "Problems in PAR include: post-op delirium, hypotension, respiratory distress (need to consider comorbidities)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

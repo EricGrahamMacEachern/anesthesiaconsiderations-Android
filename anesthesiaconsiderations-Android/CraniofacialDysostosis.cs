@@ -301,7 +301,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Potential for ↑ ICP\n",
+                                    Text = "Potential for ↑ ICP\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

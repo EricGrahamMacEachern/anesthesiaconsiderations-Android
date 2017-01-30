@@ -176,7 +176,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Management of any comorbid diseases (e.g. pulmonary hypertension, endocarditis, carcinoid, rheumatic heart disease)\n",
+                                    Text = "Management of any comorbid diseases (e.g. pulmonary hypertension, endocarditis, carcinoid, rheumatic heart disease)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

@@ -220,7 +220,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "> 5mg/day but < 20mg/day ",
+                                    Text = "> 5mg/day but < 20mg/day \n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

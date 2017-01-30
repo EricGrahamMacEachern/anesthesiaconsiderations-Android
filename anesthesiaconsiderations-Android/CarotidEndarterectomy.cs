@@ -280,7 +280,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Perioperative medication management (ASA, plavix, antihypertensives, statins)\n",
+                                    Text = "Perioperative medication management (ASA, plavix, antihypertensives, statins)\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -384,7 +384,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Smooth emergence to minimize risk of bleeding",
+                                    Text = "Smooth emergence to minimize risk of bleeding\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

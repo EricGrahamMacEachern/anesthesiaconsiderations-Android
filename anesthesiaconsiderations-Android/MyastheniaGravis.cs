@@ -91,7 +91,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Weakness results from an antibody-mediated immunological attack directed at acetylcholine receptors (or receptor-associated proteins) in the postsynaptic membrane of the neuromuscular junction",
+                                    Text = "Weakness results from an antibody-mediated immunological attack directed at acetylcholine receptors (or receptor-associated proteins) in the postsynaptic membrane of the neuromuscular junction\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -454,7 +454,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Optimize neuromuscular function\n",
+                                    Text = "Optimize neuromuscular function\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -560,7 +560,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Magnesium for pre-eclampsia in pregnancy vs contraindicated due to muscle weakness\n",
+                                    Text = "Magnesium for pre-eclampsia in pregnancy vs contraindicated due to muscle weakness\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -832,7 +832,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Neonatal myasthenia in 16% due to transfer of maternal IgG antibodies across the placenta, resolves in 3 to 4 weeks\n",
+                                    Text = "Neonatal myasthenia in 16% due to transfer of maternal IgG antibodies across the placenta, resolves in 3 to 4 weeks\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -1042,7 +1042,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Send ABG, electrolytes\n",
+                                    Text = "Send ABG, electrolytes\n\n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
