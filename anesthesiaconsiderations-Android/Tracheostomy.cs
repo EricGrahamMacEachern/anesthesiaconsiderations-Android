@@ -70,7 +70,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "May be diagnosed antenatally on prenatal U/S",
+                                    Text = "Shared airway",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -91,14 +91,14 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Presents as excessive oral secretions, with coughing & cyanosis during feeds",
+                                    Text = "Possible difficult airway",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
@@ -112,14 +112,14 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Unable to pass NG into stomach",
+                                    Text = "Close communication with surgeon, backup plan discussed",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
@@ -133,14 +133,14 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Usually repaired w/in 24 hours of birth to minimize risk and complications of aspiration",
+                                    Text = "Indication for tracheostomy & concominant injuries (traumatic brain injury, C-spine injury)",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
@@ -154,14 +154,77 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Types: I-III (see picture below)\n\n",
+                                    Text = "Potentially critically ill patient with limited reserve, multi-organ failure",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        // image
+
+                       new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "• ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Potential catastrophic complications:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+
+                        new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Loss of airway, hemorrhage, pneumothorax, pneumomediastinum, subcutaneous emphysema, aspiration, false passage/tracheal disruption",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Airway fire (low FiO2, limited cautery use)\n\n",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
 
                         new StackLayout
                         {
@@ -171,7 +234,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Considerations ",
+                                    Text = "Goals & Conflicts",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
@@ -183,8 +246,7 @@ namespace FormsGallery
                             }
                         },
 
-
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
@@ -192,7 +254,281 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "• ",
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Optimize underlying disease state: assessment of stability for elective tracheostomy (high FiO2 & ventilator support, high dose inotropes/vasopressors, raised ICP, severe volume overload, coagulopathy/DIC)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Surgical plan discussed along with backups & additional equipment",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Reduce risk of aspiration: NPO status, gastric suction applied",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Motionless surgical field (paralysis)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Low FiO2 (protect against airway fire) vs. high FiO2 requirements\n\n",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                        new StackLayout
+                        {
+                            Padding = 0,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    FontSize = 20,
+                                    Text = "Considerations for the patient with a tracheostomy",
+                                    TextColor = Color.Black,
+                                    FontAttributes = FontAttributes.Bold,
+                                },
+                                new Label
+                                {
+                                    Text = " ",
+                                    FontSize = 5,
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Difficult airway:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Difficult BMV & supraglottic device ventilation (air leak)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+
+                       new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Dangerous placement of ETT (direct vision preferred)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Indications for tracheostomy:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Pulmonary toilet",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Respiratory failure/chronic ventilation",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+
+                       new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Threatened airway",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
+                        {
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
@@ -205,7 +541,7 @@ namespace FormsGallery
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
@@ -213,97 +549,13 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "• ",
+                                    Text = "1. ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Risk of dehydration/acidosis",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "GI distension can compromise ventilation",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "May require urgent gastrostomy decompression",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Intraop surgical retraction can compress airways, major vessels, & heart",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Associated conditions",
+                                    Text = "Comorbid disease:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -311,8 +563,7 @@ namespace FormsGallery
                         },
 
 
-
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -326,14 +577,14 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "VACTERL",
+                                    Text = "ICU patient with multi-organ failure, sepsis, lung injury, etc",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -347,14 +598,35 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Cardiac anomalies: preop echo required",
+                                    Text = "Neuromuscular disorders, chronic high spinal cord injury",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
+                        {
+                            Padding = 0,
+                            Orientation = StackOrientation.Horizontal,
+                            Children =
+                            {
+                                new Label
+                                {
+                                    Text = "1. ",
+                                    TextColor = Color.Black,
+                                },
+                                new Label
+                                {
+                                    FontSize = 16,
+                                    Text = "Complications of long term tracheostomy:",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
+                                },
+                            }
+                        },
+
+                       new StackLayout
                         {
                             Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
@@ -368,34 +640,14 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Prematurity\n\n",
+                                    Text = "Tracheoinnominate fistula, suctioning injuries, trachea/stoma site infection/bleeding, laryngomalacia, tracheomalacia, tracheal rupture, tracheal stenosis",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    FontSize = 20,
-                                    Text = "Management",
-                                    TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
-                                },
-                                new Label
-                                {
-                                    Text = " ",
-                                    FontSize = 5,
-                                },
-                            }
-                        },
-
-                        new StackLayout
+                       new StackLayout
                         {
                             Padding = 0,
                             Orientation = StackOrientation.Horizontal,
@@ -403,144 +655,40 @@ namespace FormsGallery
                             {
                                 new Label
                                 {
-                                    Text = "• ",
+                                    Text = "1. ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Decompress blind upper pouch with NG to suction",
+                                    Text = "Ensure emergency tracheostomy equipment available:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
+                       new StackLayout
                         {
-                            Padding = 0,
+                            Padding = new Thickness(20, 0, 0, 0),
                             Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    Text = "• ",
+                                    Text = "1. ",
                                     TextColor = Color.Black,
                                 },
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Raise head to reduce risk of aspiration",
+                                    Text = "Various sizes of cuffed/uncuffed tracheostomy tubes, suction catheters, graspers, ambubag & ties",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
 
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Advance ETT into right mainstem; slowly withdraw until bilateral breath sounds heard",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Goal: tip of ETT between carina & fistula",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Spontaneous ventilation is preferred",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Low airways pressures if PPV required",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text = "Avoid N2O (gastric distension)",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
                    }
                 }
             };

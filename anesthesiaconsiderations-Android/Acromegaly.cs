@@ -640,7 +640,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Respiratory:",
+                                    Text = "Diabetes insipidus, SIADH",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },

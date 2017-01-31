@@ -206,7 +206,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 20,
-                                    Text = "Anesthetic Considerations",
+                                    Text = "Goals & Conflicts",
                                     TextColor = Color.Black,
                                     FontAttributes = FontAttributes.Bold,
                                 },
