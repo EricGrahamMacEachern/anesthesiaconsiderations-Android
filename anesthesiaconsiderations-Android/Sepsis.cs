@@ -326,6 +326,7 @@ namespace FormsGallery
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
+
                             }
                         },
 
