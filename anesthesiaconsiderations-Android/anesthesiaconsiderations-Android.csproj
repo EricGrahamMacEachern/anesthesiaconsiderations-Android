@@ -410,6 +410,8 @@
     <Content Include="Hemophilia A&amp;B.png" />
     <Content Include="Mitral Stenosis.png" />
     <Content Include="Pulmonary Hypertension.png" />
+    <Content Include="Sepsis.html" />
+    <Content Include="testing.png" />
     <Content Include="Von Willebrand%27s Disease %28vWD%29 Recommended Dosages.png" />
     <Content Include="Von Willebrand%27s Disease %28vWD%29 Treatment Choices Based on Sub-types.png" />
   </ItemGroup>
