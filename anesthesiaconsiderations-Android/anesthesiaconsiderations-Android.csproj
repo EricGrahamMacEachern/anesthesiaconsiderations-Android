@@ -49,7 +49,7 @@
     <AndroidLinkMode>SdkOnly</AndroidLinkMode>
     <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
     <BundleAssemblies>False</BundleAssemblies>
-    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
     <Debugger>Xamarin</Debugger>
     <AotAssemblies>False</AotAssemblies>
     <EnableLLVM>False</EnableLLVM>
@@ -167,8 +167,10 @@
     <Compile Include="Amyloidosis.cs" />
     <Compile Include="AmyotrophicLateralSclerosisALS.cs" />
     <Compile Include="Anaphylaxis.cs" />
+    <Compile Include="AneurismCoiling.cs" />
     <Compile Include="AnkylosingSpondylitis.cs" />
     <Compile Include="AnorexiaNervosa.cs" />
+    <Compile Include="AntepartumHemorrhage.cs" />
     <Compile Include="AnteriorMediastinalMass.cs" />
     <Compile Include="AorticDissection.cs" />
     <Compile Include="AorticRegurgitation.cs" />
@@ -260,9 +262,11 @@
     <Compile Include="Hypoxemia.cs" />
     <Compile Include="IncreasedAirwayPressure.cs" />
     <Compile Include="InfectiveEndocarditisProphylaxis.cs" />
+    <Compile Include="JehovasWitnessPatients.cs" />
     <Compile Include="LabelDemoPage.cs" />
     <Compile Include="Legal.cs" />
     <Compile Include="LocalAnestheticToxicity.cs" />
+    <Compile Include="LungCancer.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="MalignantHyperthermia.cs" />
     <Compile Include="MarfansSyndrome.cs" />
@@ -410,7 +414,6 @@
     <Content Include="Hemophilia A&amp;B.png" />
     <Content Include="Mitral Stenosis.png" />
     <Content Include="Pulmonary Hypertension.png" />
-    <Content Include="Sepsis.html" />
     <Content Include="testing.png" />
     <Content Include="Von Willebrand%27s Disease %28vWD%29 Recommended Dosages.png" />
     <Content Include="Von Willebrand%27s Disease %28vWD%29 Treatment Choices Based on Sub-types.png" />
