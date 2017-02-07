@@ -334,7 +334,7 @@ namespace FormsGallery
                                 new Label
                                 {
                                     FontSize = 16,
-                                    Text = "Follow Surviving Sepsis Guidelines: ",
+                                    Text = "Follow Surviving Sepsis Guidelines: \n",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
@@ -344,14 +344,18 @@ namespace FormsGallery
 
                                 Text = "Surviving Sepsis Guidelines",
 
-                                /* Does not compile. "Invalid initializer member declarator"
-                                Clicked += (sender,e) =>
-                                {
-                                 Device.OpenUri(new Uri("http://www.sccm.org/Documents/SSC-Guidelines.pdf"));
-                                }
-                                */                          
 
-                              },
+    Command = new Command(() => {Device.OpenUri(new Uri("http://www.sccm.org/Documents/SSC-Guidelines.pdf"));})
+
+
+            /* Does not compile. "Invalid initializer member declarator"
+            Clicked += (sender,e) =>
+            {
+             Device.OpenUri(new Uri("http://www.sccm.org/Documents/SSC-Guidelines.pdf"));
+            }
+            */
+
+        },
 
                             }
                         },
