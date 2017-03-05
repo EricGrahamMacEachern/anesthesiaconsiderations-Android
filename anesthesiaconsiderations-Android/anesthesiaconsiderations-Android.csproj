@@ -181,7 +181,7 @@
     <Compile Include="ArnoldChiariMalformation.cs" />
     <Compile Include="ASAToxicity.cs" />
     <Compile Include="Asthma.cs" />
-    <Compile Include="AtrialFibrillation.cs" />
+    <Compile Include="HypertrophicObstructiveCardiomyopathyHOCM.cs" />
     <Compile Include="AtrialSeptalDefect.cs" />
     <Compile Include="AutonomicHyperreflexia.cs" />
     <Compile Include="BetaBlockerOverdose.cs" />
@@ -414,6 +414,7 @@
     <Content Include="Hemophilia A&amp;B.png" />
     <Content Include="Mitral Stenosis.png" />
     <Content Include="Pulmonary Hypertension.png" />
+    <AndroidResource Include="Resources\drawable\Von_Willebrands_Disease _vWD_Recommended_Dosages.png" />
     <Content Include="testing.png" />
     <Content Include="Von Willebrand%27s Disease %28vWD%29 Recommended Dosages.png" />
     <Content Include="Von Willebrand%27s Disease %28vWD%29 Treatment Choices Based on Sub-types.png" />
