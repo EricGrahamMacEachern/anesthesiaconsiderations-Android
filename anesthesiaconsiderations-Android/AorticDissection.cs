@@ -18,7 +18,7 @@ namespace FormsGallery
 
             Label header = new Label
             {
-                Text = "Aortic Dissection ",
+                Text = "Aortic Dissection",
                 TextColor = Color.Black,
                 FontSize = 30,
                 FontAttributes = FontAttributes.Bold,
@@ -470,52 +470,57 @@ namespace FormsGallery
                                 {
                                     FontSize = 16,
                                     Text =
-                                        "Medical stabilization:\n\n",
+                                        "Medical stabilization:",
                                     TextColor = Color.Black,
                                     HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = 0,
-                            //Orientation = StackOrientation.Horizontal,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "IV access, CVC, arterial line (R arm AND L arm or femoral)\n\n",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text =
+                                        "IV access, CVC, arterial line (R arm AND L arm or femoral)",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
-                            Padding = 0,
-                            //Orientation = StackOrientation.Horizontal,
+                            Padding = new Thickness(20, 0, 0, 0),
+                            Orientation = StackOrientation.Horizontal,
                             Children =
                             {
                                 new Label
                                 {
-                                    FontSize = 20,
-                                    Text = "Hemodynamic goals ",
+                                    Text = "• ",
                                     TextColor = Color.Black,
-                                    FontAttributes = FontAttributes.Bold,
                                 },
                                 new Label
                                 {
-                                    Text = " ",
-                                    FontSize = 5,
+                                    FontSize = 16,
+                                    Text =
+                                        "​Hemodynamic goals ",
+                                    TextColor = Color.Black,
+                                    HorizontalOptions = LayoutOptions.Start
                                 },
                             }
                         },
+
                         new StackLayout
                         {
                             Padding = new Thickness(40, 0, 0, 0),
@@ -956,48 +961,7 @@ namespace FormsGallery
                                 },
                             }
                         },
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Underlying cause of aortic dissection",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
-                        new StackLayout
-                        {
-                            Padding = 0,
-                            Orientation = StackOrientation.Horizontal,
-                            Children =
-                            {
-                                new Label
-                                {
-                                    Text = "• ",
-                                    TextColor = Color.Black,
-                                },
-                                new Label
-                                {
-                                    FontSize = 16,
-                                    Text =
-                                        "Underlying cause of aortic dissection",
-                                    TextColor = Color.Black,
-                                    HorizontalOptions = LayoutOptions.Start
-                                },
-                            }
-                        },
+
                         new StackLayout
                         {
                             Padding = 0,
