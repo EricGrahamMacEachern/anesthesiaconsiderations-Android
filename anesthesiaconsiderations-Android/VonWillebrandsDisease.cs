@@ -834,10 +834,10 @@ namespace FormsGallery
                                     FontSize = 5,
                                 },
 
-                                new WebView
+                                new Image
                                 {
-                                    WidthRequest = 677, HeightRequest = 164,  Source = "https://static.wixstatic.com/media/9524a5_e6d25cd297ba4d0ca776c4a319efcc0f.png/v1/fill/w_677,h_164,al_c,usm_0.66_1.00_0.01/9524a5_e6d25cd297ba4d0ca776c4a319efcc0f.png",
-                                },
+                                    Source = ImageSource.FromFile("treatmentchoices.png")
+                                }
 
                             }
                         },
@@ -859,12 +859,11 @@ namespace FormsGallery
                                     Text = " ",
                                     FontSize = 5,
                                 },
-
-                                new WebView
+                                
+                                new Image
                                 {
-                                    WidthRequest = 683, HeightRequest = 347,  Source = "https://static.wixstatic.com/media/9524a5_d1e222f9881640f592fddc159a8167a0.png/v1/fill/w_683,h_347,al_c,usm_0.66_1.00_0.01/9524a5_d1e222f9881640f592fddc159a8167a0.png",
-                                },
-
+                                    Source = ImageSource.FromFile("recommendeddosages.png")
+                                }
                             }
                         },
                    }
