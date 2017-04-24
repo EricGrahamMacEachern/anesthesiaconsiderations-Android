@@ -859,6 +859,7 @@ namespace FormsGallery
                                     Text = " ",
                                     FontSize = 5,
                                 },
+<<<<<<< HEAD
 
                                 new Image
                                 {
@@ -868,6 +869,13 @@ namespace FormsGallery
                                             Source = ImageSource.FromFile("recommendeddosages.png"),
 
                                 },
+=======
+                                
+                                new Image
+                                {
+                                    Source = ImageSource.FromFile("recommendeddosages.png")
+                                }
+>>>>>>> origin/master
                             }
                         },
                    }

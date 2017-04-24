@@ -637,7 +637,11 @@ namespace FormsGallery
                                     Text = " ",
                                     FontSize = 5,
                                 },
+<<<<<<< HEAD
 
+=======
+                                
+>>>>>>> origin/master
                                 new Image
                                 {
                                     Source = ImageSource.FromFile("hemopheliaab.png"),
