@@ -859,23 +859,13 @@ namespace FormsGallery
                                     Text = " ",
                                     FontSize = 5,
                                 },
-<<<<<<< HEAD
 
-                                new Image
-                                {
-                                            HeightRequest = 347,
-                                            WidthRequest = 683,
-
-                                            Source = ImageSource.FromFile("recommendeddosages.png"),
-
-                                },
-=======
-                                
                                 new Image
                                 {
                                     Source = ImageSource.FromFile("recommendeddosages.png")
+
                                 }
->>>>>>> origin/master
+
                             }
                         },
                    }

@@ -13,11 +13,8 @@ namespace FormsGallery
         public Sepsis()
         {
 
-<<<<<<< HEAD
+
             Command<Type> navigateCommand =
-=======
-            Command <Type> navigateCommand =
->>>>>>> origin/master
                 new Command<Type>(async (Type pageType) =>
                 {
                     Page page = (Page)Activator.CreateInstance(pageType);
